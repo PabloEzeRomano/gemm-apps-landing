@@ -16,7 +16,7 @@ export function Hero() {
       {/* Atmospheric iso — structural background only */}
       <div className={styles.isoBack} aria-hidden="true">
         <Image
-          src="/brand/logo-icon.svg"
+          src="/brand/logo.svg"
           alt=""
           width={553}
           height={535}

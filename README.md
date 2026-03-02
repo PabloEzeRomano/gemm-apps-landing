@@ -35,67 +35,13 @@ The dev server starts at http://localhost:3000.
 
 ---
 
-## Required assets
-
-### 1. Fonts
-
-Place your Driftline font file at:
-
-```
-/public/fonts/Driftline.woff2
-```
-
-The project runs without it (fallback to Space Grotesk), but the accent typography
-(`--font-drift` CSS variable) will not use Driftline until the file is present.
-
-**Upgrading to `next/font/local`** (recommended for production):
-
-Once `Driftline.woff2` is in `/public/fonts/`, open `src/app/layout.tsx` and
-uncomment the `localFont` block:
-
-```tsx
-import localFont from "next/font/local";
-
-const driftline = localFont({
-  src: "../../public/fonts/Driftline.woff2",
-  variable: "--font-drift",
-  display: "swap",
-});
-```
-
-Then add `driftline.variable` to the `className` on `<html>`:
-
-```tsx
-<html className={`${spaceGrotesk.variable} ${driftline.variable}`}>
-```
-
-And remove the `@font-face` block from `src/app/globals.css`.
-
-### 2. Logo SVGs
-
-Replace the placeholder SVGs in `/public/brand/` with your real artwork:
-
-| File | Usage |
-|---|---|
-| `logo-icon.svg` | Favicon / apple-touch-icon |
-| `logo-horizontal-white.svg` | Header logo on dark theme |
-| `logo-horizontal-black.svg` | Header logo on light theme |
-
-Recommended dimensions: `logo-icon` 48×48 px; horizontals ~200×40 px.
-
-### 3. OG image
-
-Add a social preview image at `/public/og-image.png` (1200×630 px, dark background).
-
----
-
 ## Project structure
 
 ```
 /
 ├── public/
 │   ├── brand/
-│   │   ├── logo-icon.svg
+│   │   ├── logo.svg
 │   │   ├── logo-horizontal-black.svg
 │   │   └── logo-horizontal-white.svg
 │   └── fonts/
