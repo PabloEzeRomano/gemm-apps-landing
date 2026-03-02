@@ -1,0 +1,33 @@
+.switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.btn {
+  font-family: var(--font-space, "Space Grotesk"), sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-text-secondary);
+  padding: 0.25rem 0.1rem;
+  transition: color var(--dur-base) var(--ease-out);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: var(--color-text);
+}
+
+.btn.active {
+  color: var(--color-magenta);
+}
+
+.divider {
+  font-size: 0.7rem;
+  color: var(--color-border);
+  user-select: none;
+}

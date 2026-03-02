@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "title": "gemm-apps — Boutique Digital Product Studio",
+    "description": "gemm-apps is a boutique digital product studio founded by Pablo Romano. We build internal products with structure, identity, and soul."
+  },
+  "header": {
+    "logoAlt": "gemm-apps",
+    "skipToContent": "Skip to main content"
+  },
+  "statement": {
+    "line1": "Built from structure.",
+    "line2prefix": "Designed to",
+    "line2accent": "evolve."
+  },
+  "hero": {
+    "eyebrow": "Boutique Studio · 2024",
+    "headline": {
+      "line1": "We build digital",
+      "line2": "products.",
+      "line3": "With structure.",
+      "line4": "With identity.",
+      "line5": "With soul."
+    },
+    "subheadline": "gemm-apps is a boutique product studio founded by Pablo Romano. We build on proven foundations and adapt strategically to real businesses.",
+    "cta": {
+      "primary": "Explore the Studio",
+      "secondary": "Start a Conversation"
+    },
+    "scroll": "Scroll"
+  },
+  "about": {
+    "eyebrow": "About us",
+    "title": "Not a software factory.",
+    "bullet1": "We don't sell hours.",
+    "bullet2": "We don't execute tickets.",
+    "bullet3": "We design products with intention.",
+    "description": "We start from proven modular foundations and adapt them strategically to each client's real context. Every project is a product, not an order."
+  },
+  "products": {
+    "eyebrow": "What we build",
+    "title": "Products in evolution.",
+    "intro": "These are products we actively build and evolve. Each one starts from a proven foundation and adapts to real business contexts. No hype. Just structure, intent, and iteration.",
+    "tag": "Architecture ready to adapt.",
+    "kairo": {
+      "name": "Kairo",
+      "description": "Intelligent planning system for teams and operational processes."
+    },
+    "crmPilar": {
+      "name": "CRM-Pilar",
+      "description": "Modular internal operations system for growing organizations."
+    },
+    "menuQr": {
+      "name": "MenuQR",
+      "description": "Dynamic digital menu with ordering system and real-time updates."
+    },
+    "discountEngine": {
+      "name": "Discount Engine",
+      "description": "Flexible benefits, discounts, and loyalty infrastructure."
+    },
+    "scamRadar": {
+      "name": "Scam Radar",
+      "description": "Validation and alert system against digital scams and fraud."
+    },
+    "studioSlot": {
+      "name": "Got a project?",
+      "description": "We collaborate on selected strategic projects. Let's talk.",
+      "tag": "Studio slot available"
+    }
+  },
+  "studio": {
+    "eyebrow": "Process & thinking",
+    "title": "From the Studio.",
+    "description": "This is where ideas take shape: experiments, build logs, thoughts, process.",
+    "cta": "View on Instagram",
+    "post0": {
+      "title": "Designing without templates",
+      "excerpt": "Every product starts with a real context. Not with a pre-built template.",
+      "tag": "Thought"
+    },
+    "post1": {
+      "title": "Build log: Kairo v0.3",
+      "excerpt": "How we rethought the planning data model when the first one didn't survive real usage.",
+      "tag": "Build Log"
+    },
+    "post2": {
+      "title": "Experiment: UI without components",
+      "excerpt": "An interface built with CSS Grid and semantics only. No libraries.",
+      "tag": "Experiment"
+    },
+    "post3": {
+      "title": "On the identity of an internal product",
+      "excerpt": "Why products that nobody sees externally also deserve design and character.",
+      "tag": "Thought"
+    },
+    "post4": {
+      "title": "Build log: MenuQR offline mode",
+      "excerpt": "Implementing Service Workers in a restaurant context with unstable connectivity.",
+      "tag": "Build Log"
+    },
+    "post5": {
+      "title": "Modularity is not magic",
+      "excerpt": "What it actually means to have a modular foundation and when it's worth it.",
+      "tag": "Thought"
+    },
+    "post6": {
+      "title": "Experiment: AI-generated reports",
+      "excerpt": "Testing LLM integration to summarize operational data. Honest results.",
+      "tag": "Experiment"
+    },
+    "post7": {
+      "title": "Build log: Scam Radar MVP",
+      "excerpt": "From the initial problem —affecting real people— to the first working validation flow.",
+      "tag": "Build Log"
+    },
+    "post8": {
+      "title": "When not to build a product",
+      "excerpt": "Some projects arrive and the honest answer is: this doesn't need software yet.",
+      "tag": "Thought"
+    }
+  },
+  "philosophy": {
+    "eyebrow": "Philosophy",
+    "titlePrefix": "Built with",
+    "titleAccent": "intention.",
+    "pair1a": "We use modern tools.",
+    "pair1b": "We don't outsource thinking.",
+    "pair2a": "Technology can be automated.",
+    "pair2b": "Intent cannot.",
+    "pair3a": "Every decision comes from real context.",
+    "pair3b": "Not from trends. Not from shortcuts."
+  },
+  "collaborations": {
+    "eyebrow": "Collaborations",
+    "title": "We partner with builders.",
+    "copy1": "Beyond our own products, we collaborate on selected strategic projects.",
+    "copy2": "We don't take volume. We take vision.",
+    "cta": "Let's talk"
+  },
+  "founder": {
+    "eyebrow": "The founder",
+    "title": "Founded by Pablo Romano.",
+    "role": "Founder & Product Engineer",
+    "bio1": "Creative technologist. Product builder.",
+    "bio2": "Gemm-apps is the vehicle for structured digital products — designed with intent, built to evolve.",
+    "bio3": "Everything is built with purpose."
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "headline": "Let's build something that grows.",
+    "subheadline": "If you have a real project or want to explore a collaboration, reach out.",
+    "email": "hola@gemm-apps.com",
+    "form": {
+      "name": "Your name",
+      "email": "Your email",
+      "message": "Tell us briefly about your project or idea.",
+      "submit": "Send message",
+      "sending": "Sending…",
+      "success": "Message sent. We'll get back to you soon.",
+      "error": "Something went wrong. Try again or email us directly."
+    },
+    "whatsapp": {
+      "label": "Start a conversation",
+      "url": "https://wa.me/5491122550533?text=Hi%20I%20saw%20gemm-apps%20and%20would%20like%20to%20discuss%20a%20strategic%20project."
+    },
+    "social": {
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "studio": "Boutique Digital Product Studio"
+  }
+}

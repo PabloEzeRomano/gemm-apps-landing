@@ -1,0 +1,83 @@
+.section {
+  padding-block: var(--section-pad-y);
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  max-width: 860px;
+}
+
+/* ─── Title ─────────────────────────────────────────── */
+.title {
+  font-size: clamp(2.5rem, 5vw, 5rem);
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  line-height: 1;
+  color: var(--color-magenta);
+}
+
+.titleAccent {
+  font-family: var(--font-drift, "Driftline", serif);
+  font-weight: normal;
+}
+
+/* ─── Decorator ─────────────────────────────────────── */
+.decorator {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-block: -1.5rem;
+}
+
+.decoratorDot {
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--color-magenta);
+  flex-shrink: 0;
+}
+
+.decoratorLine {
+  display: block;
+  height: 1px;
+  width: 3.5rem;
+  background: var(--color-border);
+}
+
+/* ─── Pairs ─────────────────────────────────────────── */
+.pairs {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--color-border);
+}
+
+.pair {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-block: 2.25rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.pairA {
+  font-size: clamp(1.25rem, 2vw, 1.75rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.3;
+  color: var(--color-text);
+  font-style: normal;
+}
+
+.pairB {
+  font-size: clamp(1.12rem, 1.68vw, 1.4rem);
+  font-weight: 400;
+  line-height: 1.45;
+  color: var(--color-text-secondary);
+  padding-left: clamp(1.5rem, 6vw, 5rem);
+  font-style: normal;
+}

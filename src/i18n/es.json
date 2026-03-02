@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "title": "gemm-apps — Estudio Boutique de Producto Digital",
+    "description": "gemm-apps es un estudio boutique de producto digital fundado por Pablo Romano. Construimos productos internos con estructura, identidad y alma."
+  },
+  "header": {
+    "logoAlt": "gemm-apps",
+    "skipToContent": "Ir al contenido principal"
+  },
+  "statement": {
+    "line1": "Construido desde la estructura.",
+    "line2prefix": "Diseñado para",
+    "line2accent": "evolucionar."
+  },
+  "hero": {
+    "eyebrow": "Estudio Boutique · 2024",
+    "headline": {
+      "line1": "Construimos productos",
+      "line2": "digitales.",
+      "line3": "Con estructura.",
+      "line4": "Con identidad.",
+      "line5": "Con alma."
+    },
+    "subheadline": "gemm-apps es un estudio boutique de producto fundado por Pablo Romano. Construimos sobre bases probadas y nos adaptamos estratégicamente a negocios reales.",
+    "cta": {
+      "primary": "Explorar el Estudio",
+      "secondary": "Iniciar una Conversación"
+    },
+    "scroll": "Desplazar"
+  },
+  "about": {
+    "eyebrow": "Sobre nosotros",
+    "title": "No somos una fábrica de software.",
+    "bullet1": "No vendemos horas.",
+    "bullet2": "No ejecutamos tickets.",
+    "bullet3": "Diseñamos productos con intención.",
+    "description": "Partimos de fundamentos modulares probados y los adaptamos estratégicamente al contexto real de cada cliente. Cada proyecto es un producto, no un encargo."
+  },
+  "products": {
+    "eyebrow": "Lo que construimos",
+    "title": "Productos en evolución.",
+    "intro": "Estos son productos que construimos y evolucionamos activamente. Cada uno parte de una base probada y se adapta a contextos reales de negocio. Sin hype. Solo estructura, intención e iteración.",
+    "tag": "Arquitectura lista para adaptarse.",
+    "kairo": {
+      "name": "Kairo",
+      "description": "Sistema de planificación inteligente para equipos y procesos operativos."
+    },
+    "crmPilar": {
+      "name": "CRM-Pilar",
+      "description": "Sistema modular de operaciones internas para organizaciones en crecimiento."
+    },
+    "menuQr": {
+      "name": "MenuQR",
+      "description": "Menú digital dinámico con sistema de pedidos y actualizaciones en tiempo real."
+    },
+    "discountEngine": {
+      "name": "Discount Engine",
+      "description": "Infraestructura flexible de beneficios, descuentos y fidelización."
+    },
+    "scamRadar": {
+      "name": "Scam Radar",
+      "description": "Sistema de validación y alertas contra estafas y fraudes digitales."
+    },
+    "studioSlot": {
+      "name": "¿Tenés un proyecto?",
+      "description": "Colaboramos en proyectos estratégicos seleccionados. Hablemos.",
+      "tag": "Slot disponible"
+    }
+  },
+  "studio": {
+    "eyebrow": "Proceso y pensamiento",
+    "title": "Desde el Estudio.",
+    "description": "Aquí toman forma las ideas: experimentos, registros de construcción, pensamientos, proceso.",
+    "cta": "Ver en Instagram",
+    "post0": {
+      "title": "Diseñar sin plantillas",
+      "excerpt": "Cada producto empieza con un contexto real. No con un template preconstruido.",
+      "tag": "Pensamiento"
+    },
+    "post1": {
+      "title": "Build log: Kairo v0.3",
+      "excerpt": "Cómo replantear el modelo de datos de planificación cuando el primero no resistió el uso real.",
+      "tag": "Build Log"
+    },
+    "post2": {
+      "title": "Experimento: UI sin componentes",
+      "excerpt": "Un ejercicio de interfaz construida únicamente con CSS Grid y semántica. Sin librerías.",
+      "tag": "Experimento"
+    },
+    "post3": {
+      "title": "Sobre la identidad de un producto interno",
+      "excerpt": "Por qué los productos que nadie ve al exterior también merecen diseño y carácter.",
+      "tag": "Pensamiento"
+    },
+    "post4": {
+      "title": "Build log: MenuQR modo offline",
+      "excerpt": "Implementar Service Workers en un contexto de restaurantes sin conexión estable.",
+      "tag": "Build Log"
+    },
+    "post5": {
+      "title": "La modularidad no es magia",
+      "excerpt": "Reflexión sobre qué significa realmente tener una base modular y cuándo vale la pena.",
+      "tag": "Pensamiento"
+    },
+    "post6": {
+      "title": "Experimento: generación de reportes con IA",
+      "excerpt": "Probando la integración de LLMs para resumir datos operativos. Resultados honestos.",
+      "tag": "Experimento"
+    },
+    "post7": {
+      "title": "Build log: Scam Radar MVP",
+      "excerpt": "Del problema inicial —que afecta a personas reales— al primer flujo de validación funcional.",
+      "tag": "Build Log"
+    },
+    "post8": {
+      "title": "Cuándo no construir un producto",
+      "excerpt": "Hay proyectos que llegan y que la respuesta honesta es: esto no necesita software todavía.",
+      "tag": "Pensamiento"
+    }
+  },
+  "philosophy": {
+    "eyebrow": "Filosofía",
+    "titlePrefix": "Construido con",
+    "titleAccent": "intención.",
+    "pair1a": "Usamos herramientas modernas.",
+    "pair1b": "No delegamos el pensamiento.",
+    "pair2a": "La tecnología puede automatizarse.",
+    "pair2b": "La intención, no.",
+    "pair3a": "Cada decisión parte de contexto real.",
+    "pair3b": "No de modas. No de atajos."
+  },
+  "collaborations": {
+    "eyebrow": "Colaboraciones",
+    "title": "Trabajamos con constructores.",
+    "copy1": "Más allá de nuestros propios productos, colaboramos en proyectos estratégicos seleccionados.",
+    "copy2": "No tomamos volumen. Tomamos visión.",
+    "cta": "Conversemos"
+  },
+  "founder": {
+    "eyebrow": "El fundador",
+    "title": "Fundado por Pablo Romano.",
+    "role": "Fundador & Product Engineer",
+    "bio1": "Tecnólogo creativo. Constructor de producto.",
+    "bio2": "Gemm-apps es el vehículo para productos digitales estructurados — diseñados con intención, construidos para evolucionar.",
+    "bio3": "Todo se construye con propósito."
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "headline": "Construyamos algo que crezca.",
+    "subheadline": "Si tenés un proyecto real o querés explorar una colaboración, escribinos.",
+    "email": "hola@gemm-apps.com",
+    "form": {
+      "name": "Tu nombre",
+      "email": "Tu email",
+      "message": "Contanos brevemente sobre tu proyecto o idea.",
+      "submit": "Enviar mensaje",
+      "sending": "Enviando…",
+      "success": "Mensaje enviado. Te respondemos pronto.",
+      "error": "Algo salió mal. Intentá de nuevo o escribinos directo al email."
+    },
+    "whatsapp": {
+      "label": "Iniciar conversación",
+      "url": "https://wa.me/5491122550533?text=Hola%20vi%20gemm-apps%20y%20quiero%20conversar%20sobre%20un%20proyecto%20estrat%C3%A9gico."
+    },
+    "social": {
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn"
+    }
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "studio": "Estudio Boutique de Producto Digital"
+  }
+}
