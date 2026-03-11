@@ -35,10 +35,10 @@ export function Hero() {
       <div className={styles.grid}>
         <div className={styles.copy}>
           <h1 id="hero-headline" className={styles.headline}>
-            <span className={styles.line}>{t("hero.headline.line1")}</span>
-            <span className={`${styles.line} ${styles.lineGray}`}>
+            <span className={styles.line}>{`${t("hero.headline.line1")} ${t("hero.headline.line2")}`}</span>
+            {/* <span className={`${styles.line} ${styles.lineGray}`}>
               {t("hero.headline.line2")}
-            </span>
+            </span> */}
             <span className={styles.line}>{t("hero.headline.line3")}</span>
             <span className={styles.line}>{t("hero.headline.line4")}</span>
             <span className={`${styles.line} ${styles.lineDriftAccent}`}>

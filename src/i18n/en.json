@@ -170,5 +170,132 @@
   "footer": {
     "rights": "All rights reserved.",
     "studio": "Boutique Digital Product Studio"
+  },
+  "resume": {
+    "hero": {
+      "name": "Pablo Romano",
+      "title": "Product Architect & Creative Technologist",
+      "subtitle": "9+ years designing and building meaningful digital products",
+      "gemmAppsButton": "Explore gemm-apps",
+      "contactButton": "Contact me"
+    },
+    "summary": {
+      "title": "Summary",
+      "item1": "🧠 9+ years designing and building digital products",
+      "item2": "🚀 Product-minded technical leadership in scale-ups and startups",
+      "item3": "🧩 Architecture for scalable and evolvable platforms",
+      "item4": "🎨 Bridging product, design and engineering"
+    },
+    "experience": {
+      "title": "Experience",
+      "gemmapps": {
+        "company": "gemm-apps",
+        "role": "Founder / Product Architect",
+        "period": "2025 – present",
+        "achievement1": "Founded a boutique studio focused on creative digital products",
+        "achievement2": "Design and development of product prototypes and MVPs",
+        "achievement3": "Collaborating with startups and companies to shape new digital products",
+        "achievement4": "Combining product thinking, design sensitivity and engineering"
+      },
+      "numi": {
+        "company": "Numi",
+        "role": "Software Architect",
+        "period": "2022 – 2025",
+        "achievement1": "Improved user experience by reducing load times by 20%",
+        "achievement2": "Designed event-driven architecture to support product scalability",
+        "achievement3": "Introduced product analytics (PostHog) to drive data-informed decisions",
+        "achievement4": "Collaborated with product and design teams to shape new platform features"
+      },
+      "blockfi": {
+        "company": "BlockFi",
+        "role": "Technical Lead",
+        "period": "2020 – 2022",
+        "achievement1": "Led technical execution across 5 product squads",
+        "achievement2": "Redesigned core APIs supporting critical financial workflows",
+        "achievement3": "Improved platform performance and system reliability",
+        "achievement4": "Introduced CI/CD automation and modern engineering practices"
+      },
+      "phinx": {
+        "company": "Phinx Lab",
+        "role": "Lead Software Engineer",
+        "period": "2019 – 2020",
+        "achievement1": "Led architecture and development of new digital products",
+        "achievement2": "Implemented observability and testing culture",
+        "achievement3": "Worked closely with product and design to ship features end-to-end"
+      },
+      "mural": {
+        "company": "MURAL",
+        "role": "Full Stack Engineer",
+        "period": "2018 – 2019",
+        "achievement1": "Built product features for the MURAL collaboration platform",
+        "achievement2": "Worked with design and product teams to deliver user-facing improvements",
+        "achievement3": "Contributed to frontend architecture in a distributed team"
+      },
+      "quadminds": {
+        "company": "QuadMinds",
+        "role": "Software Engineer",
+        "period": "2016 – 2018",
+        "achievement1": "Worked on frontend and backend with JavaScript",
+        "achievement2": "Implemented features for geolocation and logistics dashboards"
+      },
+      "tekii": {
+        "company": "Tekii",
+        "role": "Web UI Developer",
+        "period": "2015 – 2016",
+        "achievement1": "Developed accessible and reusable components with React and Redux",
+        "achievement2": "Participated in microservices architecture design"
+      },
+      "globant": {
+        "company": "Globant",
+        "role": "Java Developer",
+        "period": "2014 – 2015",
+        "achievement1": "Developed solutions for banking and educational sector clients",
+        "achievement2": "Collaborated in an international team with agile methodologies"
+      }
+    },
+    "stack": {
+      "title": "Technology & Tools",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "devops": "DevOps",
+      "tools": "Tools"
+    },
+    "languages": {
+      "title": "Languages & Highlights",
+      "languages": "Languages",
+      "highlights": "Highlights",
+      "spanish": "Spanish",
+      "english": "English",
+      "portuguese": "Portuguese",
+      "italian": "Italian",
+      "native": "Native",
+      "advanced": "Advanced",
+      "basic": "Basic",
+      "highlight1": "Product architecture and technical strategy",
+      "highlight2": "Building scalable platforms from 0→1 and 1→N",
+      "highlight3": "Mentoring engineers and shaping engineering culture",
+      "highlight4": "Integrating analytics and AI into product workflows",
+      "highlight5": "Strong collaboration between product, design and engineering"
+    },
+    "contact": {
+      "title": "Contact",
+      "subtitle": "Shall we collaborate on something",
+      "big": "big",
+      "description": "Let's build meaningful products — reach out for collaborations, ideas, or new ventures.",
+      "cta": "Message me on WhatsApp",
+      "whatsappUrl": "https://wa.me/5491122550533?text=Hi%20Pablo!%20I'd%20like%20to%20discuss%20a%20potential%20collaboration.",
+      "mailCTA": "Send me an email!"
+    },
+    "footer": {
+      "title": "Pablo Romano",
+      "subtitle": "Software Architect & Boutique Studio",
+      "downloadPDF": "Download PDF",
+      "sections": "Resume Sections",
+      "experience": "Experience",
+      "stack": "Tech Stack",
+      "contact": "Contact",
+      "contactNav": "Contact & Navigation",
+      "backToPortfolio": "← Back to home"
+    }
   }
 }

@@ -1,0 +1,86 @@
+.section {
+  padding-block: clamp(4rem, 7vw, 7rem);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.heading {
+  /* eyebrow utility */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  padding: 1.5rem 1.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  transition: border-color var(--dur-base) var(--ease-out);
+}
+.card:hover {
+  border-color: rgba(181, 11, 129, 0.2);
+}
+
+.cardTitle {
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-text-secondary);
+}
+
+.langList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.langRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.langName {
+  font-size: 0.95rem;
+  color: var(--color-text);
+}
+
+.langLevel {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-magenta);
+}
+
+.highlightList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.highlightItem {
+  font-size: 0.93rem;
+  color: var(--color-text);
+  line-height: 1.5;
+  padding-left: 1.1rem;
+  position: relative;
+}
+.highlightItem::before {
+  content: "·";
+  position: absolute;
+  left: 0;
+  color: var(--color-magenta);
+  font-weight: 700;
+}

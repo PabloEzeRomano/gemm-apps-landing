@@ -170,5 +170,123 @@
   "footer": {
     "rights": "Todos los derechos reservados.",
     "studio": "Estudio Boutique de Producto Digital"
+  },
+  "resume": {
+    "hero": {
+      "name": "Pablo Romano",
+      "title": "Arquitecto de software enfocado en producto",
+      "subtitle": "9+ años creando productos digitales escalables y con alma",
+      "gemmAppsButton": "gemm-apps",
+      "contactButton": "Escribime"
+    },
+    "summary": {
+      "title": "Resumen",
+      "item1": "🧠 +9 años de experiencia en software",
+      "item2": "🚀 Liderazgo técnico en scale-ups y empresas innovadoras",
+      "item3": "🧩 Diseño de arquitecturas escalables",
+      "item4": "🤖 Integración de IA y herramientas de analytics"
+    },
+    "experience": {
+      "title": "Experiencia",
+      "numi": {
+        "company": "Numi",
+        "role": "Software Architect",
+        "period": "2022 – presente",
+        "achievement1": "Reduje tiempos de carga en un 20%",
+        "achievement2": "Implementé arquitectura event-driven",
+        "achievement3": "Integré PostHog y herramientas de analítica real",
+        "achievement4": "Mentoreé devs y colaboré en decisiones de producto"
+      },
+      "blockfi": {
+        "company": "BlockFi",
+        "role": "Technical Lead",
+        "period": "2020 – 2022",
+        "achievement1": "Coordiné 5 squads multidisciplinarios",
+        "achievement2": "Impulsé reescritura y diseño de APIs críticas",
+        "achievement3": "Mejoré la performance general de la plataforma",
+        "achievement4": "Adopté GitHub Actions para CI/CD y manejo de secrets"
+      },
+      "phinx": {
+        "company": "Phinx Lab",
+        "role": "Lead Software Engineer",
+        "period": "2019 – 2020",
+        "achievement1": "Lideré el equipo técnico en arquitectura y desarrollo",
+        "achievement2": "Adopté observabilidad con Datadog y pruebas automatizadas",
+        "achievement3": "Trabajé con producto y diseño para crear funcionalidades desde cero"
+      },
+      "mural": {
+        "company": "MURAL",
+        "role": "Full Stack Engineer",
+        "period": "2018 – 2019",
+        "achievement1": "Desarrollé funcionalidades frontend y backend para la plataforma de colaboración",
+        "achievement2": "Trabajé con tecnologías modernas de JavaScript y frameworks de UI",
+        "achievement3": "Colaboré en un equipo distribuido con metodologías ágiles"
+      },
+      "quadminds": {
+        "company": "QuadMinds",
+        "role": "Software Engineer",
+        "period": "2016 – 2018",
+        "achievement1": "Trabajé en front y backend con JavaScript",
+        "achievement2": "Implementé features para dashboards de geolocalización y logística"
+      },
+      "tekii": {
+        "company": "Tekii",
+        "role": "Web UI Developer",
+        "period": "2015 – 2016",
+        "achievement1": "Desarrollé componentes accesibles y reutilizables con React y Redux",
+        "achievement2": "Participé en diseño de arquitectura de microservicios"
+      },
+      "globant": {
+        "company": "Globant",
+        "role": "Java Developer",
+        "period": "2014 – 2015",
+        "achievement1": "Desarrollé soluciones para clientes del sector bancario y educativo",
+        "achievement2": "Colaboré en un equipo internacional con metodologías ágiles"
+      }
+    },
+    "stack": {
+      "title": "Stack Tecnológico",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "devops": "DevOps",
+      "tools": "Herramientas"
+    },
+    "languages": {
+      "title": "Idiomas y Destacados",
+      "languages": "Idiomas",
+      "highlights": "Destacados",
+      "spanish": "Español",
+      "english": "Inglés",
+      "portuguese": "Portugués",
+      "italian": "Italiano",
+      "native": "Nativo",
+      "advanced": "Avanzado",
+      "basic": "Básico",
+      "highlight1": "Liderazgo técnico en equipos de hasta 15 personas",
+      "highlight2": "Arquitectura de sistemas escalables",
+      "highlight3": "Mentoría de equipos técnicos y escalamiento de talento",
+      "highlight4": "Integración de IA y analytics",
+      "highlight5": "Metodologías ágiles y DevOps"
+    },
+    "contact": {
+      "title": "Contacto",
+      "subtitle": "¿Colaboramos en algo",
+      "big": "grande",
+      "description": "Hagamos algo importante juntos, escríbeme para proyectos o solo para hablar de tecnología.",
+      "cta": "Escribime por WhatsApp",
+      "whatsappUrl": "https://wa.me/5491122550533?text=¡Hola%20Pablo!%20Me%20gustaría%20conversar%20sobre%20una%20posible%20colaboración.",
+      "mailCTA": "¡Escribime por mail!"
+    },
+    "footer": {
+      "title": "Pablo Romano",
+      "subtitle": "Arquitecto de Software & Estudio Boutique",
+      "downloadPDF": "Descargar PDF",
+      "sections": "Secciones del CV",
+      "experience": "Experiencia",
+      "stack": "Stack Tecnológico",
+      "contact": "Contacto",
+      "contactNav": "Contacto y Navegación",
+      "backToPortfolio": "← Volver al inicio"
+    }
   }
 }

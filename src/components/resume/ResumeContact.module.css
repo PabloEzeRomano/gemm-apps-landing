@@ -1,0 +1,84 @@
+.section {
+  padding-block: clamp(5rem, 9vw, 9rem);
+  background: var(--color-bg-elevated);
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.25rem;
+}
+
+.title {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1.05;
+  color: var(--color-magenta);
+}
+
+.subtitle {
+  font-size: clamp(1.32rem, 2.64vw, 1.8rem);
+  font-weight: 600;
+  color: var(--color-text);
+  letter-spacing: -0.01em;
+}
+
+.big {
+  font-size: 1.15em;
+  color: var(--color-magenta);
+  font-family: var(--font-drift, "Driftline", serif);
+}
+
+.description {
+  font-size: 1rem;
+  color: var(--color-text-secondary);
+  max-width: 36rem;
+  line-height: 1.6;
+}
+
+.ctaGroup {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 0.75rem;
+}
+
+.ctaPrimary {
+  display: inline-flex;
+  align-items: center;
+  background: var(--color-red);
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.75rem 1.75rem;
+  border-radius: 6px;
+  transition: background var(--dur-base) var(--ease-out),
+    transform var(--dur-fast) var(--ease-out);
+}
+.ctaPrimary:hover {
+  background: var(--color-orange);
+}
+
+.ctaSecondary {
+  display: inline-flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.75rem 1.75rem;
+  border-radius: 6px;
+  border: 1px solid var(--color-magenta);
+  color: var(--color-magenta);
+  transition: background var(--dur-base) var(--ease-out),
+    color var(--dur-base) var(--ease-out),
+    transform var(--dur-fast) var(--ease-out);
+}
+.ctaSecondary:hover {
+  background: var(--color-magenta);
+  color: #fff;
+}
