@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/scam-radar(/.*)?",
+      "destination": "https://scam-radar-one.vercel.app/scam-radar$1"
+    },
+    {
+      "source": "/kairo(/.*)?",
+      "destination": "https://kairo-landing-ten.vercel.app/kairo$1"
+    }
+  ]
+}
