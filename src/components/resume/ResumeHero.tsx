@@ -10,26 +10,10 @@ export function ResumeHero() {
   const { t } = useLanguage();
   const { theme } = useTheme();
 
-  const glowAnimate =
-    theme === "dark"
-      ? {
-          opacity: 1,
-          y: 0,
-          textShadow: [
-            "0 0 10px #b50b81, 0 0 20px #b50b81, 0 0 40px #b50b81",
-            "0 0 20px #b50b81, 0 0 40px #b50b81, 0 0 70px #b50b81",
-            "0 0 10px #b50b81, 0 0 20px #b50b81, 0 0 40px #b50b81",
-          ],
-        }
-      : {
-          opacity: 1,
-          y: 0,
-          textShadow: [
-            "0 0 6px rgba(181,11,129,0.45), 0 0 14px rgba(181,11,129,0.2)",
-            "0 0 10px rgba(181,11,129,0.65), 0 0 22px rgba(181,11,129,0.3)",
-            "0 0 6px rgba(181,11,129,0.45), 0 0 14px rgba(181,11,129,0.2)",
-          ],
-        };
+  const glowAnimate = {
+    opacity: 1,
+    y: 0,
+  };
 
   return (
     <section id="resume-top" className={styles.section}>
@@ -41,7 +25,6 @@ export function ResumeHero() {
           transition={{
             opacity: { duration: 0.8 },
             y: { duration: 0.8 },
-            textShadow: { duration: 2.5, repeat: Infinity, ease: "easeInOut" },
           }}
         >
           {t("resume.hero.name")}

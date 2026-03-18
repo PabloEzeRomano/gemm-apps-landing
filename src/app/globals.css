@@ -52,8 +52,8 @@
   --color-bg: #ffffff;
   --color-bg-elevated: #f5f5f5;
   --color-text: #121212;
-  --color-text-secondary: rgba(18, 18, 18, 0.5);
-  --color-text-tertiary: rgba(18, 18, 18, 0.25);
+  --color-text-secondary: rgba(18, 18, 18, 0.65);
+  --color-text-tertiary: rgba(18, 18, 18, 0.4);
   --color-border: rgba(18, 18, 18, 0.08);
   --color-surface: rgba(18, 18, 18, 0.03);
   --color-surface-hover: rgba(18, 18, 18, 0.06);

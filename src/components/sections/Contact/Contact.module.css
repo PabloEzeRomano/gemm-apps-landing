@@ -74,12 +74,14 @@
   text-decoration: none;
   width: fit-content;
   transition: border-color var(--dur-base) var(--ease-out),
-    color var(--dur-base) var(--ease-out);
+    color var(--dur-base) var(--ease-out),
+    transform var(--dur-base) var(--ease-out);
 }
 
 .whatsappLink:hover {
   border-color: var(--color-text-secondary);
   color: var(--color-text);
+  transform: translateY(-1px);
 }
 
 .socials {
@@ -147,7 +149,8 @@
 }
 
 .input::placeholder {
-  color: var(--color-text-tertiary);
+  color: var(--color-text-secondary);
+  opacity: 0.6;
 }
 
 .input:focus {

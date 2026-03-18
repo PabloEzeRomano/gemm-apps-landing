@@ -163,6 +163,7 @@
 .ctaSecondary:hover {
   border-color: var(--color-text-secondary);
   color: var(--color-text);
+  transform: translateY(-1px);
 }
 
 /* ─── Responsive ───────────────────────────────────── */
