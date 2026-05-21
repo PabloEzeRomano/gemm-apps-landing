@@ -7,6 +7,10 @@
     {
       "source": "/kairo(/.*)?",
       "destination": "https://kairo-landing-ten.vercel.app/kairo$1"
+    },
+    {
+      "source":"/field-crm(/.*)?",
+      "destination": "https://field-crm-landing.vercel.app/"
     }
   ]
 }
