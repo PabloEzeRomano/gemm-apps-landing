@@ -9,8 +9,12 @@
       "destination": "https://kairo-landing-ten.vercel.app/kairo$1"
     },
     {
-      "source":"/field-crm(/.*)?",
+      "source": "/field-crm(/.*)?",
       "destination": "https://field-crm-landing.vercel.app/field-crm$1"
+    },
+    {
+      "source": "/corturno(/.*)?",
+      "destination": "https://corturno.vercel.app/$1"
     }
   ]
 }
