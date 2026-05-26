@@ -14,7 +14,7 @@
     },
     {
       "source": "/corturno(/.*)?",
-      "destination": "https://corturno.vercel.app/$1"
+      "destination": "https://corturno.vercel.app/corturno$1"
     }
   ]
 }
