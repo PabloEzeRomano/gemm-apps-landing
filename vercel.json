@@ -10,7 +10,7 @@
     },
     {
       "source":"/field-crm(/.*)?",
-      "destination": "https://field-crm-landing.vercel.app/field-crm"
+      "destination": "https://field-crm-landing.vercel.app/field-crm$1"
     }
   ]
 }
