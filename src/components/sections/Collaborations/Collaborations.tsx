@@ -16,7 +16,7 @@ export function Collaborations() {
         <div className={styles.grid}>
           {/* Left */}
           <div className={styles.left}>
-            <p className="eyebrow">{t("collaborations.eyebrow")}</p>
+            {/*<p className="eyebrow">{t("collaborations.eyebrow")}</p>*/}
             <h2 id="collab-title" className={styles.title}>
               {t("collaborations.title")}
             </h2>
@@ -28,7 +28,12 @@ export function Collaborations() {
             <p className={`${styles.copy} ${styles.copyBold}`}>
               {t("collaborations.copy2")}
             </p>
-            <a href="#contact" className={styles.cta}>
+            <a
+              href={t("contact.whatsapp.url")}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.cta}
+            >
               {t("collaborations.cta")}
               <svg
                 width="14"

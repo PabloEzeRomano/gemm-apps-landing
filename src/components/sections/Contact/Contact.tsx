@@ -4,24 +4,34 @@ import { useState, type FormEvent } from "react";
 import { useLanguage } from "@/context/LanguageContext";
 import styles from "./Contact.module.css";
 
-type FormState = "idle" | "sending" | "success" | "error";
+type FormState = "idle" | "sending" | "success" | "error" | "rate_limit";
 
 export function Contact() {
   const { t } = useLanguage();
   const [formState, setFormState] = useState<FormState>("idle");
-  const [values, setValues] = useState({ name: "", email: "", message: "" });
+  const [values, setValues] = useState({ name: "", email: "", message: "", website: "" });
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setFormState("sending");
-    // Placeholder: no backend
-    await new Promise((r) => setTimeout(r, 900));
-    setFormState("success");
+
+    try {
+      console.log(values)
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(values),
+      });
+
+      if (res.status === 429) { setFormState("rate_limit"); return; }
+      if (!res.ok) { setFormState("error"); return; }
+      setFormState("success");
+    } catch {
+      setFormState("error");
+    }
   };
 
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setValues((v) => ({ ...v, [e.target.name]: e.target.value }));
   };
 
@@ -31,21 +41,12 @@ export function Contact() {
         <div className={styles.grid}>
           {/* Left: headline + meta */}
           <div className={styles.left}>
-            <p className="eyebrow">{t("contact.eyebrow")}</p>
             <h2 id="contact-title" className={styles.headline}>
               {t("contact.headline")}
             </h2>
             <p className={styles.sub}>{t("contact.subheadline")}</p>
 
             <div className={styles.meta}>
-              <a
-                href={`mailto:${t("contact.email")}`}
-                className={styles.emailLink}
-                aria-label={`Enviar email a ${t("contact.email")}`}
-              >
-                {t("contact.email")}
-              </a>
-
               <a
                 href={t("contact.whatsapp.url")}
                 target="_blank"
@@ -55,9 +56,17 @@ export function Contact() {
                 {t("contact.whatsapp.label")}
               </a>
 
+              <a
+                href={`mailto:${t("contact.email")}`}
+                className={styles.emailLink}
+                aria-label={`Enviar email a ${t("contact.email")}`}
+              >
+                {t("contact.email")}
+              </a>
+
               <div className={styles.socials}>
                 <a
-                  href="https://www.instagram.com/gemm.apps"
+                  href="https://www.instagram.com/gemmapps"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={styles.socialLink}
@@ -96,6 +105,18 @@ export function Contact() {
                 noValidate
                 aria-label="Formulario de contacto"
               >
+                {/* Honeypot — invisible for humans, bots fill it */}
+                <div className={styles.honeypot} aria-hidden="true">
+                  <input
+                    name="website"
+                    type="text"
+                    value={values.website}
+                    onChange={handleChange}
+                    tabIndex={-1}
+                    autoComplete="off"
+                  />
+                </div>
+
                 <div className={styles.field}>
                   <label htmlFor="contact-name" className={styles.label}>
                     {t("contact.form.name")}
@@ -152,6 +173,12 @@ export function Contact() {
                 {formState === "error" && (
                   <p className={styles.errorMsg} role="alert">
                     {t("contact.form.error")}
+                  </p>
+                )}
+
+                {formState === "rate_limit" && (
+                  <p className={styles.errorMsg} role="alert">
+                    Demasiados intentos. Intentá de nuevo en una hora.
                   </p>
                 )}
 

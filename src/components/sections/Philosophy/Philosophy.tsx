@@ -16,7 +16,7 @@ export function Philosophy() {
     >
       <div className="section-inner">
         <div className={styles.inner}>
-          <p className="eyebrow">{t("philosophy.eyebrow")}</p>
+          {/*<p className="eyebrow">{t("philosophy.eyebrow")}</p>*/}
 
           <h2 id="philosophy-title" className={styles.title}>
             {t("philosophy.titlePrefix")}{" "}

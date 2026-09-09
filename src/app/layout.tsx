@@ -22,16 +22,16 @@ const driftline = localFont({
 export const metadata: Metadata = {
   metadataBase: new URL("https://gemm-apps.com"),
   title: {
-    default: "gemm-apps — Estudio Boutique de Producto Digital",
+    default: "gemm-apps, apps que te devuelven el tiempo",
     template: "%s | gemm-apps",
   },
   description:
-    "gemm-apps es un estudio boutique de producto digital fundado por Pablo Romano. Construimos productos internos con estructura, identidad y alma.",
+    "Hacemos apps con alma para negocios que ya funcionan y quieren dejar de hacer cosas a mano.",
   keywords: [
-    "producto digital",
-    "estudio boutique",
-    "software interno",
-    "Pablo Romano",
+    "app para turnos",
+    "CRM para vendedores",
+    "app para negocios",
+    "automatizar procesos",
     "gemm-apps",
   ],
   authors: [{ name: "Pablo Romano", url: "https://gemm-apps.com" }],
@@ -42,23 +42,23 @@ export const metadata: Metadata = {
     alternateLocale: ["en_US"],
     url: "https://gemm-apps.com",
     siteName: "gemm-apps",
-    title: "gemm-apps — Estudio Boutique de Producto Digital",
+    title: "gemm-apps, apps que te devuelven el tiempo",
     description:
-      "Construimos productos digitales con estructura, identidad y alma.",
+      "Hacemos apps con alma para negocios que ya funcionan y quieren dejar de hacer cosas a mano.",
     images: [
       {
         url: "/brand/wordmark-white.svg",
         width: 2241,
         height: 1070,
-        alt: "gemm-apps — Boutique Product Studio",
+        alt: "gemm-apps",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "gemm-apps — Estudio Boutique de Producto Digital",
+    title: "gemm-apps, apps que te devuelven el tiempo",
     description:
-      "Construimos productos digitales con estructura, identidad y alma.",
+      "Hacemos apps con alma para negocios que ya funcionan y quieren dejar de hacer cosas a mano.",
     images: ["/brand/wordmark-white.svg"],
   },
   robots: {

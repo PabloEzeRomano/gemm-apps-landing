@@ -16,7 +16,7 @@ export function Founder() {
     >
       <div className="section-inner">
         <div className={styles.inner}>
-          <p className="eyebrow">{t('founder.eyebrow')}</p>
+          {/*<p className="eyebrow">{t('founder.eyebrow')}</p>*/}
 
           <div className={styles.content}>
             {/* Avatar placeholder */}

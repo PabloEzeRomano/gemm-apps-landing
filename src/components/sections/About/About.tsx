@@ -18,7 +18,7 @@ export function About() {
         <div className={styles.grid}>
           {/* Left: eyebrow + title */}
           <div className={styles.titleCol}>
-            <p className="eyebrow">{t("about.eyebrow")}</p>
+            {/*<p className="eyebrow">{t("about.eyebrow")}</p>*/}
             <h2 id="about-title" className={styles.title}>
               {t("about.title")}
             </h2>

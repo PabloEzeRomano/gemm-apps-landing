@@ -3,12 +3,10 @@
 import { useLanguage } from "@/context/LanguageContext";
 import styles from "./Products.module.css";
 
-const PRODUCT_KEYS = [
-  "kairo",
-  "crmPilar",
-  "menuQr",
-  "discountEngine",
-  "scamRadar",
+const PRODUCTS = [
+  { key: "miTurno", url: "https://miturno.gemm-apps.com" },
+  { key: "fieldCrm", url: "https://field-crm.gemm-apps.com" },
+  { key: "qrtify", url: "https://qrtify.gemm-apps.com" },
 ] as const;
 
 export function Products() {
@@ -23,18 +21,22 @@ export function Products() {
       <div className="section-inner">
         {/* Header */}
         <div className={styles.header}>
-          <p className="eyebrow">{t("products.eyebrow")}</p>
+          {/*<p className="eyebrow">{t("products.eyebrow")}</p>*/}
           <h2 id="products-title" className={styles.title}>
             {t("products.title")}
           </h2>
-          <p className={styles.intro}>{t("products.intro")}</p>
         </div>
 
         {/* Cards grid */}
-        <ul className={styles.grid} aria-label="Productos del estudio">
-          {PRODUCT_KEYS.map((key, i) => (
+        <ul className={styles.grid} aria-label="Apps de gemm-apps">
+          {PRODUCTS.map(({ key, url }, i) => (
             <li key={key} className={styles.card}>
-              <div className={styles.cardInner}>
+              <a
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.cardInner}
+              >
                 <div className={styles.cardTop}>
                   <span className={styles.cardIndex} aria-hidden="true">
                     {String(i + 1).padStart(2, "0")}
@@ -43,25 +45,11 @@ export function Products() {
                 </div>
                 <p className={styles.cardDesc}>{t(`products.${key}.description`)}</p>
                 <div className={styles.cardFooter}>
-                  <span className={styles.cardTag}>{t("products.tag")}</span>
+                  <span className={styles.cardTag}>Conocé más →</span>
                 </div>
-              </div>
+              </a>
             </li>
           ))}
-
-          {/* Studio slot — links to collaborations */}
-          <li className={`${styles.card} ${styles.cardStudio}`}>
-            <a href="#collaborations" className={styles.cardInner}>
-              <div className={styles.cardTop}>
-                <span className={styles.cardIndex} aria-hidden="true">06</span>
-                <h3 className={styles.cardName}>{t("products.studioSlot.name")}</h3>
-              </div>
-              <p className={styles.cardDesc}>{t("products.studioSlot.description")}</p>
-              <div className={styles.cardFooter}>
-                <span className={styles.cardTag}>{t("products.studioSlot.tag")}</span>
-              </div>
-            </a>
-          </li>
         </ul>
       </div>
     </section>
