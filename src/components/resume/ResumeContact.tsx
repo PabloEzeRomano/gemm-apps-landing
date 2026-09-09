@@ -8,7 +8,7 @@ import styles from "./ResumeContact.module.css";
 export function ResumeContact() {
   const { t } = useLanguage();
   const { theme } = useTheme();
-  const email = "hola@gemm-apps.com";
+  const email = "info@gemm-apps.com";
 
   const glowAnimate =
     theme === "dark"
