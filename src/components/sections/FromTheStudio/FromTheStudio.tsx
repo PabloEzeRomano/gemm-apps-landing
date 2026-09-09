@@ -25,13 +25,13 @@ export function FromTheStudio() {
       <div className="section-inner">
         {/* Header */}
         <div className={styles.header}>
-          <p className="eyebrow">{t("studio.eyebrow")}</p>
+          {/*<p className="eyebrow">{t("studio.eyebrow")}</p>*/}
           <div className={styles.headerRow}>
             <h2 id="studio-title" className={styles.title}>
               {t("studio.title")}
             </h2>
             <a
-              href="https://www.instagram.com/gemm.apps"
+              href="https://www.instagram.com/gemmapps"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.instagramCta}
