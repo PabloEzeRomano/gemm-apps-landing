@@ -133,4 +133,8 @@
     grid-template-columns: 1fr;
     gap: 1.25rem;
   }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
 }
