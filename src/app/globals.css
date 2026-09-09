@@ -1,15 +1,10 @@
-/* ─────────────────────────────────────────────
-   DRIFTLINE — CSS @font-face fallback
-   Place /public/fonts/Driftline.woff2 to activate.
-   See README for switching to next/font/local.
-───────────────────────────────────────────── */
-/* @font-face {
+@font-face {
   font-family: "Driftline";
   src: url("/fonts/Driftline.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-} */
+}
 
 /* ─────────────────────────────────────────────
    DESIGN TOKENS — DARK (default)
