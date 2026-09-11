@@ -47,9 +47,9 @@ export const metadata: Metadata = {
       "Hacemos apps con alma para negocios que ya funcionan y quieren dejar de hacer cosas a mano.",
     images: [
       {
-        url: "/brand/wordmark-white.png",
-        width: 2241,
-        height: 1070,
+        url: "/brand/OG.png",
+        width: 1200,
+        height: 630,
         alt: "gemm-apps",
       },
     ],
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     title: "gemm-apps, apps que te devuelven el tiempo",
     description:
       "Hacemos apps con alma para negocios que ya funcionan y quieren dejar de hacer cosas a mano.",
-    images: ["/brand/wordmark-white.png"],
+    images: ["/brand/OG.png"],
   },
   robots: {
     index: true,
