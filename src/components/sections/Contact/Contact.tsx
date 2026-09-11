@@ -7,7 +7,21 @@ import styles from "./Contact.module.css";
 type FormState = "idle" | "sending" | "success" | "error" | "rate_limit";
 
 export function Contact() {
-  const { t } = useLanguage();
+  const { t, currentLang } = useLanguage();
+
+  const clusterLinks = currentLang === "en"
+    ? [
+        { href: "/app-development-companies-argentina", label: "App development companies in Argentina" },
+        { href: "/app-development-cost-argentina",      label: "How much does an app cost?" },
+        { href: "/how-to-choose-software-development-company", label: "How to choose a provider" },
+        { href: "/custom-app-development-argentina",    label: "Custom development" },
+      ]
+    : [
+        { href: "/desarrollo-de-apps-en-argentina",     label: "Empresas de desarrollo en Argentina" },
+        { href: "/cuanto-cuesta-una-app-en-argentina",  label: "¿Cuánto cuesta una app?" },
+        { href: "/como-elegir-empresa-de-software",     label: "Cómo elegir proveedor" },
+        { href: "/desarrollo-a-medida",                 label: "Desarrollo a medida" },
+      ];
   const [formState, setFormState] = useState<FormState>("idle");
   const [values, setValues] = useState({ name: "", email: "", message: "", website: "" });
 
@@ -201,10 +215,9 @@ export function Contact() {
       <div className={styles.footer}>
         <div className="section-inner">
           <nav className={styles.footerNav} aria-label="Recursos">
-            <a href="/desarrollo-de-apps-en-argentina" className={styles.footerNavLink}>Empresas de desarrollo en Argentina</a>
-            <a href="/cuanto-cuesta-una-app-en-argentina" className={styles.footerNavLink}>¿Cuánto cuesta una app?</a>
-            <a href="/como-elegir-empresa-de-software" className={styles.footerNavLink}>Cómo elegir proveedor</a>
-            <a href="/desarrollo-a-medida" className={styles.footerNavLink}>Desarrollo a medida</a>
+            {clusterLinks.map(({ href, label }) => (
+              <a key={href} href={href} className={styles.footerNavLink}>{label}</a>
+            ))}
           </nav>
           <div className={styles.footerInner}>
             <span className={styles.footerBrand}>gemm-apps</span>
