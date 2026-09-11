@@ -121,7 +121,9 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.875rem 1.75rem;
-  background: var(--color-red);
+
+  background: var(--color-orange);
+  /*background: var(--color-red);*/
   color: #ffffff;
   font-family: var(--font-space, "Space Grotesk"), sans-serif;
   font-weight: 700;
