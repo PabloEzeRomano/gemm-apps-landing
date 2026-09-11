@@ -13,6 +13,12 @@ const clusterPages = [
   "/custom-app-development-argentina",
 ];
 
+const productPages = [
+  "/productos/mi-turno",
+  "/productos/qrtify",
+  "/productos/field-crm",
+];
+
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
@@ -32,6 +38,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.8,
+    })),
+    ...productPages.map((path) => ({
+      url: `${base}${path}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.9,
     })),
   ];
 }
