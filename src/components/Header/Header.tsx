@@ -55,13 +55,13 @@ export function Header() {
             </>
           ) : (
             <>
-              <a href="#about" className={styles.navLink}>
+              <a href="/#about" className={styles.navLink}>
                 {t("about.eyebrow").replace(/^─+\s*/, "").split("·")[0].trim()}
               </a>
-              <a href="#products" className={styles.navLink}>
+              <a href="/#products" className={styles.navLink}>
                 {t("products.eyebrow").replace(/^─+\s*/, "").split("·")[0].trim()}
               </a>
-              <a href="#contact" className={styles.navLink}>
+              <a href="/#contact" className={styles.navLink}>
                 {t("contact.eyebrow").replace(/^─+\s*/, "")}
               </a>
             </>
