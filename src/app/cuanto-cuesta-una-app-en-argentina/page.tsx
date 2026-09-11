@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     canonical: "https://gemm-apps.com/cuanto-cuesta-una-app-en-argentina",
     languages: {
       es: "https://gemm-apps.com/cuanto-cuesta-una-app-en-argentina",
+      en: "https://gemm-apps.com/app-development-cost-argentina",
       "x-default": "https://gemm-apps.com/cuanto-cuesta-una-app-en-argentina",
     },
   },

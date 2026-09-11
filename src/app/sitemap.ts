@@ -7,6 +7,10 @@ const clusterPages = [
   "/cuanto-cuesta-una-app-en-argentina",
   "/como-elegir-empresa-de-software",
   "/desarrollo-a-medida",
+  "/app-development-companies-argentina",
+  "/app-development-cost-argentina",
+  "/how-to-choose-software-development-company",
+  "/custom-app-development-argentina",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

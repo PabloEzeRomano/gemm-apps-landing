@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     canonical: "https://gemm-apps.com/como-elegir-empresa-de-software",
     languages: {
       es: "https://gemm-apps.com/como-elegir-empresa-de-software",
+      en: "https://gemm-apps.com/how-to-choose-software-development-company",
       "x-default": "https://gemm-apps.com/como-elegir-empresa-de-software",
     },
   },

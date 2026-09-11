@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     canonical: "https://gemm-apps.com/desarrollo-de-apps-en-argentina",
     languages: {
       es: "https://gemm-apps.com/desarrollo-de-apps-en-argentina",
+      en: "https://gemm-apps.com/app-development-companies-argentina",
       "x-default": "https://gemm-apps.com/desarrollo-de-apps-en-argentina",
     },
   },
