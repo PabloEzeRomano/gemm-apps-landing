@@ -231,5 +231,19 @@
       "contactNav": "Contact & Navigation",
       "backToPortfolio": "← Back to home"
     }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Everything you wanted to know",
+    "q1": "Does gemm-apps do custom development?",
+    "a1": "Yes. gemm-apps has two lines: semi-standardized products (Mi Turno, Field CRM, QRtify) and custom development when a business problem doesn't fit any of those products. In both cases you deal directly with the person building it — no account manager layers.",
+    "q2": "How much does a gemm-apps product setup cost?",
+    "a2": "Setup starts at USD 1,000 — significantly less than a ground-up custom build. Products start from an existing codebase, which reduces time and cost compared to a 100% custom solution.",
+    "q3": "What technologies do you use?",
+    "a3": "Mobile apps are built with Expo and React Native. Web products and custom projects use Next.js. This keeps us fast and consistent across different types of work.",
+    "q4": "Is there support after launch?",
+    "a4": "Yes. Our own products are updated continuously. Custom projects also receive post-launch follow-up rather than being treated as closed deliverables once handed over.",
+    "q5": "Do you work with clients outside Buenos Aires?",
+    "a5": "gemm-apps operates 100% remotely and serves clients across Argentina. Location is not a factor — what matters is whether your business problem fits what we build."
   }
 }

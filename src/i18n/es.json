@@ -231,5 +231,19 @@
       "contactNav": "Contacto y Navegación",
       "backToPortfolio": "← Volver al inicio"
     }
+  },
+  "faq": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Todo lo que querías saber",
+    "q1": "¿gemm-apps hace desarrollo a medida?",
+    "a1": "Sí. gemm-apps tiene dos líneas: productos semi-estandarizados (Mi Turno, Field CRM, QRtify) y desarrollo a medida cuando el problema de un negocio no encaja en ninguno de esos productos. En ambos casos el trato es directo con quien construye, sin capas de gerentes de cuenta.",
+    "q2": "¿Cuánto cuesta el setup de un producto de gemm-apps?",
+    "a2": "El setup arranca en USD 1.000, significativamente menor al de un desarrollo desde cero. Los productos parten de una base ya construida, lo que reduce tiempo y costo frente a una solución 100% a medida.",
+    "q3": "¿Qué tecnologías usan?",
+    "a3": "Las apps móviles se construyen con Expo y React Native. Los productos web y los desarrollos a medida usan Next.js. Eso nos permite mantener velocidad y consistencia entre distintos tipos de trabajo.",
+    "q4": "¿Hay soporte después del lanzamiento?",
+    "a4": "Sí. Los productos propios se actualizan de forma continua. Los proyectos a medida también tienen seguimiento post-lanzamiento en lugar de tratarse como trabajos cerrados una vez entregados.",
+    "q5": "¿Trabajan con clientes fuera de Buenos Aires?",
+    "a5": "gemm-apps opera 100% de forma remota y atiende clientes en todo el país. La ubicación no es un factor: lo que importa es que el problema de tu negocio encaje con lo que construimos."
   }
 }

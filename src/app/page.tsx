@@ -6,6 +6,7 @@ import { Products } from "@/components/sections/Products/Products";
 import { Collaborations } from "@/components/sections/Collaborations/Collaborations";
 import { Philosophy } from "@/components/sections/Philosophy/Philosophy";
 import { Founder } from "@/components/sections/Founder/Founder";
+import { FAQ } from "@/components/sections/FAQ/FAQ";
 import { Contact } from "@/components/sections/Contact/Contact";
 
 export default function HomePage() {
@@ -20,6 +21,7 @@ export default function HomePage() {
         <Collaborations />
         <Philosophy />
         <Founder />
+        <FAQ />
         <Contact />
       </main>
     </>
