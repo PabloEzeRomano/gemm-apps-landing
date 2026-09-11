@@ -239,6 +239,25 @@
   margin-top: 0;
 }
 
+.footerNav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.footerNavLink {
+  font-size: 0.72rem;
+  color: var(--color-text-tertiary);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  transition: color 200ms;
+}
+
+.footerNavLink:hover {
+  color: var(--color-text-secondary);
+}
+
 .footerInner {
   display: flex;
   align-items: center;

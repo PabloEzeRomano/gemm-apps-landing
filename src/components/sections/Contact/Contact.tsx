@@ -200,6 +200,12 @@ export function Contact() {
       {/* Footer */}
       <div className={styles.footer}>
         <div className="section-inner">
+          <nav className={styles.footerNav} aria-label="Recursos">
+            <a href="/desarrollo-de-apps-en-argentina" className={styles.footerNavLink}>Empresas de desarrollo en Argentina</a>
+            <a href="/cuanto-cuesta-una-app-en-argentina" className={styles.footerNavLink}>¿Cuánto cuesta una app?</a>
+            <a href="/como-elegir-empresa-de-software" className={styles.footerNavLink}>Cómo elegir proveedor</a>
+            <a href="/desarrollo-a-medida" className={styles.footerNavLink}>Desarrollo a medida</a>
+          </nav>
           <div className={styles.footerInner}>
             <span className={styles.footerBrand}>gemm-apps</span>
             <span className={styles.footerSep} aria-hidden="true">·</span>

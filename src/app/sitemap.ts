@@ -1,7 +1,15 @@
 import type { MetadataRoute } from "next";
 
+const base = "https://gemm-apps.com";
+
+const clusterPages = [
+  "/desarrollo-de-apps-en-argentina",
+  "/cuanto-cuesta-una-app-en-argentina",
+  "/como-elegir-empresa-de-software",
+  "/desarrollo-a-medida",
+];
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://gemm-apps.com";
   return [
     {
       url: base,
@@ -15,5 +23,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
         },
       },
     },
+    ...clusterPages.map((path) => ({
+      url: `${base}${path}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
   ];
 }

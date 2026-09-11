@@ -93,6 +93,29 @@ export default function RootLayout({
   return (
     <html lang="es" data-theme="dark"  className={`${spaceGrotesk.variable} ${driftline.variable}`}>
       <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "gemm-apps",
+              url: "https://gemm-apps.com",
+              logo: "https://gemm-apps.com/brand/logo-horizontal-white.svg",
+              description:
+                "Hacemos apps con alma para negocios que ya funcionan y quieren dejar de hacer cosas a mano.",
+              contactPoint: {
+                "@type": "ContactPoint",
+                contactType: "customer service",
+                url: "https://gemm-apps.com/#contact",
+              },
+              sameAs: [
+                "https://www.instagram.com/gemmapps",
+                "https://www.linkedin.com/company/gemm-apps",
+              ],
+            }),
+          }}
+        />
         {/* Prevent FOUC: set theme before React hydrates */}
         <script
           dangerouslySetInnerHTML={{
