@@ -14,6 +14,7 @@ const clusterPages = [
 ];
 
 const productPages = [
+  "/productos",
   "/productos/mi-turno",
   "/productos/qrtify",
   "/productos/field-crm",

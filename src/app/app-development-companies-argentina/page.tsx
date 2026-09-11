@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Header } from "@/components/Header/Header";
+import { ProductLinks } from "@/components/ProductLinks/ProductLinks";
 import styles from "@/components/ClusterPage/ClusterPage.module.css";
 
 export const metadata: Metadata = {
@@ -92,6 +93,15 @@ const FAQS = [
   },
 ];
 
+
+const breadcrumb = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "gemm-apps", item: "https://gemm-apps.com" },
+    { "@type": "ListItem", position: 2, name: "App Development Companies Argentina", item: "https://gemm-apps.com/app-development-companies-argentina" },
+  ],
+};
 export default function Page() {
   return (
     <>
@@ -100,6 +110,10 @@ export default function Page() {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
         />
         <div className={styles.hero}>
           <div className={styles.heroInner}>
@@ -122,6 +136,7 @@ export default function Page() {
             ))}
           </div>
         </section>
+        <ProductLinks />
         <div className={styles.cta}>
           <div className={styles.ctaInner}>
             <p className={styles.ctaText}>

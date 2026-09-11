@@ -17,6 +17,16 @@ export const metadata: Metadata = {
   },
 };
 
+const breadcrumb = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "gemm-apps", item: "https://gemm-apps.com" },
+    { "@type": "ListItem", position: 2, name: "Productos", item: "https://gemm-apps.com/productos" },
+    { "@type": "ListItem", position: 3, name: "Mi Turno", item: "https://gemm-apps.com/productos/mi-turno" },
+  ],
+};
+
 const schema = {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
@@ -106,6 +116,10 @@ export default function Page() {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
         />
 
         {/* Hero */}

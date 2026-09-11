@@ -22,6 +22,12 @@ export function Contact() {
         { href: "/como-elegir-empresa-de-software",     label: "Cómo elegir proveedor" },
         { href: "/desarrollo-a-medida",                 label: "Desarrollo a medida" },
       ];
+
+  const productLinks = [
+    { href: "/productos/mi-turno",   label: "Mi Turno" },
+    { href: "/productos/field-crm",  label: "Field CRM" },
+    { href: "/productos/qrtify",     label: "QRtify" },
+  ];
   const [formState, setFormState] = useState<FormState>("idle");
   const [values, setValues] = useState({ name: "", email: "", message: "", website: "" });
 
@@ -216,6 +222,9 @@ export function Contact() {
         <div className="section-inner">
           <nav className={styles.footerNav} aria-label="Recursos">
             {clusterLinks.map(({ href, label }) => (
+              <a key={href} href={href} className={styles.footerNavLink}>{label}</a>
+            ))}
+            {productLinks.map(({ href, label }) => (
               <a key={href} href={href} className={styles.footerNavLink}>{label}</a>
             ))}
           </nav>
