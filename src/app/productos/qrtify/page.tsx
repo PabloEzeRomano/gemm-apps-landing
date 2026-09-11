@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Header } from "@/components/Header/Header";
-import styles from "@/components/ClusterPage/ClusterPage.module.css";
+import s from "@/components/ProductPage/ProductPage.module.css";
 
 export const metadata: Metadata = {
   title: "QRtify — menú digital y comanda para restaurantes | gemm-apps",
@@ -29,55 +29,78 @@ const schema = {
       name: "Plan Menú",
       price: "15000",
       priceCurrency: "ARS",
-      priceSpecification: {
-        "@type": "UnitPriceSpecification",
-        billingDuration: "P1M",
-      },
+      priceSpecification: { "@type": "UnitPriceSpecification", billingDuration: "P1M" },
     },
     {
       "@type": "Offer",
       name: "Plan Comanda",
       price: "30000",
       priceCurrency: "ARS",
-      priceSpecification: {
-        "@type": "UnitPriceSpecification",
-        billingDuration: "P1M",
-      },
+      priceSpecification: { "@type": "UnitPriceSpecification", billingDuration: "P1M" },
     },
   ],
   description:
     "Menú digital QR con sistema de comanda integrado para restaurantes, bares y cafeterías. Mesa, mozo y cocina sincronizados.",
-  provider: {
-    "@type": "Organization",
-    name: "gemm-apps",
-    url: "https://gemm-apps.com",
-  },
+  provider: { "@type": "Organization", name: "gemm-apps", url: "https://gemm-apps.com" },
 };
+
+const STEPS = [
+  {
+    num: "01",
+    title: "Cargá tu carta",
+    body: "Subís tus productos, fotos y precios al panel. Te ayudamos a pasarla si ya tenés una.",
+  },
+  {
+    num: "02",
+    title: "El cliente escanea el QR",
+    body: "Sin apps, sin registro. Escanea el QR de la mesa y ve la carta actualizada en su celu.",
+  },
+  {
+    num: "03",
+    title: "Llega a cocina",
+    body: "Con el Plan Comanda, el pedido llega directo. Mesa → Mozo acepta → Cocina cocina.",
+  },
+];
 
 const FEATURES = [
   {
-    q: "¿El cliente tiene que bajarse una app?",
-    a: "No. Solo escanea el QR de la mesa y ve el menú en el navegador. Sin instalar nada, sin crear cuenta, sin fricción. El cliente ve los productos, agrega al pedido y listo.",
+    title: "Menú QR sin app",
+    body: "El cliente solo escanea. Sin instalar nada, sin crear cuenta, sin fricción. La carta carga en el navegador.",
   },
   {
-    q: "¿Cómo se actualizan los precios y la disponibilidad?",
-    a: "Desde el panel de administración, en tiempo real. Si terminaste las milanesas del día, las marcás como no disponibles y desaparecen del menú de los clientes al instante. Sin imprimir nada, sin pizarras.",
+    title: "Actualizaciones en tiempo real",
+    body: "Precios y disponibilidad al instante desde el panel. Si se terminó un plato, lo marcás y desaparece del menú de todos los clientes.",
   },
   {
-    q: "¿Qué es la comanda integrada?",
-    a: "El plan Comanda conecta el menú del cliente con la cocina: el pedido viaja directo desde la mesa al panel de cocina. El mozo lo acepta desde su pantalla, la cocina sabe qué preparar, y el cliente no necesita repetirle nada a nadie. Mesa, mozo y cocina sincronizados.",
+    title: "Comanda integrada",
+    body: "Mesa, mozo y cocina sincronizados. El pedido viaja desde la mesa al panel de cocina en segundos. Sin papel, sin errores.",
   },
   {
-    q: "¿Qué incluye el panel de administración?",
-    a: "Gestión de productos, categorías y precios. Mesas activas y estado de pedidos. Historial. Todo desde el mismo lugar, sin hojas de cálculo.",
+    title: "Panel de administración",
+    body: "Productos, mesas y pedidos desde un mismo lugar. Sin hojas de cálculo, sin anotaciones en papel.",
+  },
+];
+
+const FAQS = [
+  {
+    q: "¿Mis clientes necesitan descargar una app?",
+    a: "No. El cliente solo escanea el QR con la cámara del celu y la carta se abre en el navegador. Sin descargas, sin registros, sin fricción.",
   },
   {
-    q: "¿Cuáles son los planes y precios?",
-    a: "Plan Menú: $15.000/mes — carta digital QR para todas las mesas, actualizaciones ilimitadas, tu logo, link compartible por WhatsApp y soporte. Plan Comanda: $30.000/mes — incluye todo lo anterior más el sistema de comanda integrado con pedidos a cocina en tiempo real, gestión de estado de mesas e historial de pedidos. 14 días de prueba gratis, sin tarjeta.",
+    q: "¿Puedo cambiar precios cuando quiero?",
+    a: "Sí, en cualquier momento desde el celular. Los cambios se ven al instante en todos los QRs. Sin reimprimir nada.",
   },
   {
-    q: "¿Para qué tipo de local es QRtify?",
-    a: "Para restaurantes, bares, cafeterías, parrillas, cervecerías o cualquier local gastronómico que quiera reemplazar la carta impresa y eliminar el papel en el proceso de pedido. Funciona en cualquier dispositivo con cámara.",
+    q: "¿Cómo funciona la comanda?",
+    a: "El cliente pide desde la mesa. El mozo recibe la alerta y la acepta. Automáticamente llega a la cocina. Todo en segundos, sin papel.",
+  },
+  {
+    q: "¿Hay contrato o comisiones?",
+    a: "No hay contrato ni comisiones. Precio fijo mensual, cancelás cuando querés.",
+  },
+  {
+    q: "¿Qué pasa si no tengo buena señal?",
+    a: "La carta carga rápido incluso con señal moderada. Todas las imágenes están optimizadas para que no consuman datos innecesarios.",
   },
 ];
 
@@ -90,36 +113,156 @@ export default function Page() {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
-        <div className={styles.hero}>
-          <div className={styles.heroInner}>
-            <p className={styles.eyebrow}>QRtify · gemm-apps</p>
-            <h1 className={styles.title}>
-              El menú que habla con tu cocina.
-            </h1>
-            <p className={styles.subtitle}>
+
+        {/* Hero */}
+        <div className={s.hero}>
+          <div className={s.heroInner}>
+            <p className={s.eyebrow}>QRtify · gemm-apps</p>
+            <h1 className={s.title}>El menú que habla con tu cocina.</h1>
+            <p className={s.subtitle}>
               Mesa, mozo y cocina sincronizados. Sin papel, sin errores, sin comisiones. Precio fijo mensual para restaurantes, bares y cafeterías.
             </p>
+            <div className={s.heroCtas}>
+              <a href="https://qrtify.gemm-apps.com/signup" className={s.btnPrimary}>
+                Probalo 14 días gratis →
+              </a>
+              <a href="#como-funciona" className={s.btnSecondary}>
+                Ver cómo funciona
+              </a>
+            </div>
           </div>
         </div>
-        <section className={styles.faqSection}>
-          <div className={styles.faqInner}>
-            {FEATURES.map(({ q, a }) => (
-              <details key={q} className={styles.item}>
-                <summary className={styles.question}>{q}</summary>
-                <p className={styles.answer}>{a}</p>
-              </details>
-            ))}
+
+        {/* Cómo funciona */}
+        <section id="como-funciona" className={s.section}>
+          <div className={s.sectionInner}>
+            <div className={s.sectionHead}>
+              <p className={s.sectionEyebrow}>Cómo funciona</p>
+              <h2 className={s.sectionTitle}>Tres pasos. Tu local, digitalizado.</h2>
+              <p className={s.sectionLead}>Sin técnicos, sin complicaciones. Empezás hoy.</p>
+            </div>
+            <div className={s.steps}>
+              {STEPS.map((step) => (
+                <div key={step.num} className={s.step}>
+                  <p className={s.stepNum}>{step.num}</p>
+                  <h3 className={s.stepTitle}>{step.title}</h3>
+                  <p className={s.stepBody}>{step.body}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </section>
-        <div className={styles.cta}>
-          <div className={styles.ctaInner}>
-            <p className={styles.ctaText}>
-              Probalo 14 días gratis — sin tarjeta.
-            </p>
-            <a
-              href="https://qrtify.gemm-apps.com/signup"
-              className={styles.ctaButton}
-            >
+
+        {/* Funciones */}
+        <section className={s.section}>
+          <div className={s.sectionInner}>
+            <div className={s.sectionHead}>
+              <h2 className={s.sectionTitle}>Todo lo que tu local necesita.</h2>
+              <p className={s.sectionLead}>
+                Diseñado para restaurantes, bares y cafeterías que quieren ofrecer una experiencia moderna sin complicarse.
+              </p>
+            </div>
+            <div className={s.featGrid}>
+              {FEATURES.map((f, i) => (
+                <div key={f.title} className={s.featCard}>
+                  <p className={s.featNum}>{String(i + 1).padStart(2, "0")}</p>
+                  <h3 className={s.featTitle}>{f.title}</h3>
+                  <p className={s.featBody}>{f.body}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Precio */}
+        <section className={s.section}>
+          <div className={s.sectionInner}>
+            <div className={s.sectionHead}>
+              <p className={s.sectionEyebrow}>Precio</p>
+              <h2 className={s.sectionTitle}>Precio fijo. Sin sorpresas.</h2>
+              <p className={s.sectionLead}>Sin comisiones. Sin contrato. Cancelás cuando querés.</p>
+            </div>
+            <div className={s.pricingGrid}>
+              <div className={s.planCard}>
+                <p className={s.planName}>Plan Menú</p>
+                <div className={s.planPrice}>
+                  <span className={s.planCurrency}>$</span>
+                  <span className={s.planAmount}>15.000</span>
+                  <span className={s.planPeriod}>/mes</span>
+                </div>
+                <p className={s.planDesc}>Carta digital QR para tu local.</p>
+                <div className={s.planDivider} />
+                <ul className={s.planFeatureList}>
+                  {[
+                    "Menú QR para cada mesa",
+                    "Actualizaciones ilimitadas",
+                    "Tu logo y personalización",
+                    "Link compartible por WhatsApp",
+                    "Panel de administración",
+                    "Soporte por WhatsApp",
+                  ].map((f) => (
+                    <li key={f} className={s.planFeature}>{f}</li>
+                  ))}
+                </ul>
+                <a href="https://qrtify.gemm-apps.com/signup" className={s.planCta}>
+                  Empezar gratis →
+                </a>
+                <p className={s.planNote}>14 días gratis · Sin tarjeta</p>
+              </div>
+
+              <div className={s.planCard}>
+                <div className={s.planBadge}>PRO</div>
+                <p className={s.planName}>Plan Comanda</p>
+                <div className={s.planPrice}>
+                  <span className={s.planCurrency}>$</span>
+                  <span className={s.planAmount}>30.000</span>
+                  <span className={s.planPeriod}>/mes</span>
+                </div>
+                <p className={s.planDesc}>Plan Menú + sistema de comanda integrado.</p>
+                <div className={s.planDivider} />
+                <ul className={s.planFeatureList}>
+                  {[
+                    "Todo lo del Plan Menú",
+                    "Sistema de comanda integrado",
+                    "Pedidos a cocina en tiempo real",
+                    "El mozo acepta desde su pantalla",
+                    "Gestión de estado de mesas",
+                    "Historial de pedidos",
+                  ].map((f) => (
+                    <li key={f} className={s.planFeature}>{f}</li>
+                  ))}
+                </ul>
+                <a href="https://qrtify.gemm-apps.com/signup" className={s.planCta}>
+                  Empezar con Comanda →
+                </a>
+                <p className={s.planNote}>14 días gratis · Sin tarjeta</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ */}
+        <div className={s.faqSection}>
+          <div className={s.faqInner}>
+            <div className={s.faqHead}>
+              <h2 className={s.sectionTitle}>Preguntas frecuentes</h2>
+            </div>
+            <div className={s.faqItems}>
+              {FAQS.map(({ q, a }) => (
+                <details key={q} className={s.faqItem}>
+                  <summary className={s.faqQ}>{q}</summary>
+                  <p className={s.faqA}>{a}</p>
+                </details>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* CTA final */}
+        <div className={s.cta}>
+          <div className={s.ctaInner}>
+            <p className={s.ctaText}>Probalo 14 días gratis — sin tarjeta.</p>
+            <a href="https://qrtify.gemm-apps.com/signup" className={s.btnPrimary}>
               Empezar gratis →
             </a>
           </div>
