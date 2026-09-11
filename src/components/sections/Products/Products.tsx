@@ -4,9 +4,9 @@ import { useLanguage } from "@/context/LanguageContext";
 import styles from "./Products.module.css";
 
 const PRODUCTS = [
-  { key: "miTurno", url: "https://miturno.gemm-apps.com" },
-  { key: "fieldCrm", url: "https://field-crm.gemm-apps.com" },
-  { key: "qrtify", url: "https://qrtify.gemm-apps.com" },
+  { key: "miTurno", url: "/productos/mi-turno" },
+  { key: "fieldCrm", url: "/productos/field-crm" },
+  { key: "qrtify", url: "/productos/qrtify" },
 ] as const;
 
 export function Products() {
@@ -33,8 +33,6 @@ export function Products() {
             <li key={key} className={styles.card}>
               <a
                 href={url}
-                target="_blank"
-                rel="noopener noreferrer"
                 className={styles.cardInner}
               >
                 <div className={styles.cardTop}>
