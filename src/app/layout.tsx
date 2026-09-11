@@ -21,6 +21,14 @@ const driftline = localFont({
 // ─── Metadata ────────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
   metadataBase: new URL("https://gemm-apps.com"),
+  alternates: {
+    canonical: "https://gemm-apps.com",
+    languages: {
+      es: "https://gemm-apps.com",
+      en: "https://gemm-apps.com?lang=en",
+      "x-default": "https://gemm-apps.com",
+    },
+  },
   title: {
     default: "gemm-apps, apps que te devuelven el tiempo",
     template: "%s | gemm-apps",

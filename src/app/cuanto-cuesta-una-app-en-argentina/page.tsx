@@ -6,6 +6,13 @@ export const metadata: Metadata = {
   title: "¿Cuánto cuesta desarrollar una app en Argentina? | gemm-apps",
   description:
     "Rangos de precios reales para desarrollo de apps en Argentina: desde MVPs hasta plataformas complejas. Incluye alternativas semi-estandarizadas desde USD 1.000.",
+  alternates: {
+    canonical: "https://gemm-apps.com/cuanto-cuesta-una-app-en-argentina",
+    languages: {
+      es: "https://gemm-apps.com/cuanto-cuesta-una-app-en-argentina",
+      "x-default": "https://gemm-apps.com/cuanto-cuesta-una-app-en-argentina",
+    },
+  },
   openGraph: {
     title: "¿Cuánto cuesta desarrollar una app en Argentina? | gemm-apps",
     description:

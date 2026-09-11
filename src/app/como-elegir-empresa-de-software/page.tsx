@@ -6,6 +6,13 @@ export const metadata: Metadata = {
   title: "Cómo elegir una empresa de desarrollo de software | gemm-apps",
   description:
     "Las señales reales para elegir bien un proveedor de software: trato directo, compromiso post-lanzamiento, alcance por escrito. Sin marketing.",
+  alternates: {
+    canonical: "https://gemm-apps.com/como-elegir-empresa-de-software",
+    languages: {
+      es: "https://gemm-apps.com/como-elegir-empresa-de-software",
+      "x-default": "https://gemm-apps.com/como-elegir-empresa-de-software",
+    },
+  },
   openGraph: {
     title: "Cómo elegir una empresa de desarrollo de software | gemm-apps",
     description:

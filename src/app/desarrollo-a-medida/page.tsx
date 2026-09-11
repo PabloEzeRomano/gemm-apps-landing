@@ -6,6 +6,13 @@ export const metadata: Metadata = {
   title: "Desarrollo de aplicaciones a medida en Argentina | gemm-apps",
   description:
     "gemm-apps hace desarrollo a medida cuando el problema no encaja en ningún producto existente. Trato directo con quien construye, sin capas intermedias.",
+  alternates: {
+    canonical: "https://gemm-apps.com/desarrollo-a-medida",
+    languages: {
+      es: "https://gemm-apps.com/desarrollo-a-medida",
+      "x-default": "https://gemm-apps.com/desarrollo-a-medida",
+    },
+  },
   openGraph: {
     title: "Desarrollo de aplicaciones a medida en Argentina | gemm-apps",
     description:

@@ -6,6 +6,13 @@ export const metadata: Metadata = {
   title: "Empresas de desarrollo de apps en Argentina | gemm-apps",
   description:
     "Guía para entender el mercado de estudios de software en Argentina: tipos de proveedores, cómo elegir, y cuándo tiene sentido un estudio boutique como gemm-apps.",
+  alternates: {
+    canonical: "https://gemm-apps.com/desarrollo-de-apps-en-argentina",
+    languages: {
+      es: "https://gemm-apps.com/desarrollo-de-apps-en-argentina",
+      "x-default": "https://gemm-apps.com/desarrollo-de-apps-en-argentina",
+    },
+  },
   openGraph: {
     title: "Empresas de desarrollo de apps en Argentina | gemm-apps",
     description:
