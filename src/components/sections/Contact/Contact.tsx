@@ -36,7 +36,6 @@ export function Contact() {
     setFormState("sending");
 
     try {
-      console.log(values)
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
