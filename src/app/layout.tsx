@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Space_Grotesk } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { Providers } from "@/components/Providers";
 import "./globals.css";
 
@@ -137,6 +138,7 @@ export default function RootLayout({
         </a>
         <Providers>{children}</Providers>
       </body>
+      <GoogleAnalytics gaId="G-QQH3JWGS4J" />
     </html>
   );
 }
