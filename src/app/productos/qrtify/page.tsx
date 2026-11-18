@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Menú QR sin app, pedidos que llegan directo a cocina, precio fijo mensual. Para restaurantes, bares y cafeterías. 14 días gratis.",
   alternates: {
-    canonical: "https://gemm-apps.com/productos/qrtify",
+    canonical: "https://www.gemm-apps.com/productos/qrtify",
   },
   openGraph: {
     title: "QRtify — menú digital y comanda para restaurantes | gemm-apps",
     description:
       "Menú QR sin app, pedidos que llegan directo a cocina, precio fijo mensual. Para restaurantes, bares y cafeterías. 14 días gratis.",
-    url: "https://gemm-apps.com/productos/qrtify",
+    url: "https://www.gemm-apps.com/productos/qrtify",
   },
 };
 
@@ -21,9 +21,9 @@ const breadcrumb = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "gemm-apps", item: "https://gemm-apps.com" },
-    { "@type": "ListItem", position: 2, name: "Productos", item: "https://gemm-apps.com/productos" },
-    { "@type": "ListItem", position: 3, name: "QRtify", item: "https://gemm-apps.com/productos/qrtify" },
+    { "@type": "ListItem", position: 1, name: "gemm-apps", item: "https://www.gemm-apps.com" },
+    { "@type": "ListItem", position: 2, name: "Productos", item: "https://www.gemm-apps.com/productos" },
+    { "@type": "ListItem", position: 3, name: "QRtify", item: "https://www.gemm-apps.com/productos/qrtify" },
   ],
 };
 
@@ -51,7 +51,7 @@ const schema = {
   ],
   description:
     "Menú digital QR con sistema de comanda integrado para restaurantes, bares y cafeterías. Mesa, mozo y cocina sincronizados.",
-  provider: { "@type": "Organization", name: "gemm-apps", url: "https://gemm-apps.com" },
+  provider: { "@type": "Organization", name: "gemm-apps", url: "https://www.gemm-apps.com" },
 };
 
 const STEPS = [

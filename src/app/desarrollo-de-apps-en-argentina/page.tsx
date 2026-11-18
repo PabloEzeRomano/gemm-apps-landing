@@ -8,18 +8,18 @@ export const metadata: Metadata = {
   description:
     "Guía para entender el mercado de estudios de software en Argentina: tipos de proveedores, cómo elegir, y cuándo tiene sentido un estudio boutique como gemm-apps.",
   alternates: {
-    canonical: "https://gemm-apps.com/desarrollo-de-apps-en-argentina",
+    canonical: "https://www.gemm-apps.com/desarrollo-de-apps-en-argentina",
     languages: {
-      es: "https://gemm-apps.com/desarrollo-de-apps-en-argentina",
-      en: "https://gemm-apps.com/app-development-companies-argentina",
-      "x-default": "https://gemm-apps.com/desarrollo-de-apps-en-argentina",
+      es: "https://www.gemm-apps.com/desarrollo-de-apps-en-argentina",
+      en: "https://www.gemm-apps.com/app-development-companies-argentina",
+      "x-default": "https://www.gemm-apps.com/desarrollo-de-apps-en-argentina",
     },
   },
   openGraph: {
     title: "Empresas de desarrollo de apps en Argentina | gemm-apps",
     description:
       "Guía para entender el mercado de estudios de software en Argentina: tipos de proveedores, cómo elegir, y cuándo tiene sentido un estudio boutique como gemm-apps.",
-    url: "https://gemm-apps.com/desarrollo-de-apps-en-argentina",
+    url: "https://www.gemm-apps.com/desarrollo-de-apps-en-argentina",
   },
 };
 
@@ -110,8 +110,8 @@ const breadcrumb = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "gemm-apps", item: "https://gemm-apps.com" },
-    { "@type": "ListItem", position: 2, name: "Desarrollo de apps en Argentina", item: "https://gemm-apps.com/desarrollo-de-apps-en-argentina" },
+    { "@type": "ListItem", position: 1, name: "gemm-apps", item: "https://www.gemm-apps.com" },
+    { "@type": "ListItem", position: 2, name: "Desarrollo de apps en Argentina", item: "https://www.gemm-apps.com/desarrollo-de-apps-en-argentina" },
   ],
 };
 export default function Page() {

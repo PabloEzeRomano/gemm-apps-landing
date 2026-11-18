@@ -8,18 +8,18 @@ export const metadata: Metadata = {
   description:
     "Rangos de precios reales para desarrollo de apps en Argentina: desde MVPs hasta plataformas complejas. Incluye alternativas semi-estandarizadas desde USD 1.000.",
   alternates: {
-    canonical: "https://gemm-apps.com/cuanto-cuesta-una-app-en-argentina",
+    canonical: "https://www.gemm-apps.com/cuanto-cuesta-una-app-en-argentina",
     languages: {
-      es: "https://gemm-apps.com/cuanto-cuesta-una-app-en-argentina",
-      en: "https://gemm-apps.com/app-development-cost-argentina",
-      "x-default": "https://gemm-apps.com/cuanto-cuesta-una-app-en-argentina",
+      es: "https://www.gemm-apps.com/cuanto-cuesta-una-app-en-argentina",
+      en: "https://www.gemm-apps.com/app-development-cost-argentina",
+      "x-default": "https://www.gemm-apps.com/cuanto-cuesta-una-app-en-argentina",
     },
   },
   openGraph: {
     title: "¿Cuánto cuesta desarrollar una app en Argentina? | gemm-apps",
     description:
       "Rangos de precios reales para desarrollo de apps en Argentina: desde MVPs hasta plataformas complejas. Incluye alternativas semi-estandarizadas desde USD 1.000.",
-    url: "https://gemm-apps.com/cuanto-cuesta-una-app-en-argentina",
+    url: "https://www.gemm-apps.com/cuanto-cuesta-una-app-en-argentina",
   },
 };
 
@@ -98,8 +98,8 @@ const breadcrumb = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "gemm-apps", item: "https://gemm-apps.com" },
-    { "@type": "ListItem", position: 2, name: "¿Cuánto cuesta una app?", item: "https://gemm-apps.com/cuanto-cuesta-una-app-en-argentina" },
+    { "@type": "ListItem", position: 1, name: "gemm-apps", item: "https://www.gemm-apps.com" },
+    { "@type": "ListItem", position: 2, name: "¿Cuánto cuesta una app?", item: "https://www.gemm-apps.com/cuanto-cuesta-una-app-en-argentina" },
   ],
 };
 export default function Page() {

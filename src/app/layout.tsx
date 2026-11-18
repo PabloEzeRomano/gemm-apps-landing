@@ -21,13 +21,13 @@ const driftline = localFont({
 
 // ─── Metadata ────────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  metadataBase: new URL("https://gemm-apps.com"),
+  metadataBase: new URL("https://www.gemm-apps.com"),
   alternates: {
-    canonical: "https://gemm-apps.com",
+    canonical: "https://www.gemm-apps.com",
     languages: {
-      es: "https://gemm-apps.com",
-      en: "https://gemm-apps.com?lang=en",
-      "x-default": "https://gemm-apps.com",
+      es: "https://www.gemm-apps.com",
+      en: "https://www.gemm-apps.com?lang=en",
+      "x-default": "https://www.gemm-apps.com",
     },
   },
   title: {
@@ -43,13 +43,13 @@ export const metadata: Metadata = {
     "automatizar procesos",
     "gemm-apps",
   ],
-  authors: [{ name: "Pablo Romano", url: "https://gemm-apps.com" }],
+  authors: [{ name: "Pablo Romano", url: "https://www.gemm-apps.com" }],
   creator: "gemm-apps",
   openGraph: {
     type: "website",
     locale: "es_AR",
     alternateLocale: ["en_US"],
-    url: "https://gemm-apps.com",
+    url: "https://www.gemm-apps.com",
     siteName: "gemm-apps",
     title: "gemm-apps, apps que te devuelven el tiempo",
     description:
@@ -109,14 +109,14 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Organization",
               name: "gemm-apps",
-              url: "https://gemm-apps.com",
-              logo: "https://gemm-apps.com/brand/logo-horizontal-white.svg",
+              url: "https://www.gemm-apps.com",
+              logo: "https://www.gemm-apps.com/brand/logo-horizontal-white.svg",
               description:
                 "Hacemos apps con alma para negocios que ya funcionan y quieren dejar de hacer cosas a mano.",
               contactPoint: {
                 "@type": "ContactPoint",
                 contactType: "customer service",
-                url: "https://gemm-apps.com/#contact",
+                url: "https://www.gemm-apps.com/#contact",
               },
               sameAs: [
                 "https://www.instagram.com/gemmapps",

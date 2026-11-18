@@ -8,7 +8,7 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://gemm-apps.com/sitemap.xml",
-    host: "https://gemm-apps.com",
+    sitemap: "https://www.gemm-apps.com/sitemap.xml",
+    host: "https://www.gemm-apps.com",
   };
 }

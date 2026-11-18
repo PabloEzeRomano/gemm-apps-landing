@@ -8,18 +8,18 @@ export const metadata: Metadata = {
   description:
     "Las señales reales para elegir bien un proveedor de software: trato directo, compromiso post-lanzamiento, alcance por escrito. Sin marketing.",
   alternates: {
-    canonical: "https://gemm-apps.com/como-elegir-empresa-de-software",
+    canonical: "https://www.gemm-apps.com/como-elegir-empresa-de-software",
     languages: {
-      es: "https://gemm-apps.com/como-elegir-empresa-de-software",
-      en: "https://gemm-apps.com/how-to-choose-software-development-company",
-      "x-default": "https://gemm-apps.com/como-elegir-empresa-de-software",
+      es: "https://www.gemm-apps.com/como-elegir-empresa-de-software",
+      en: "https://www.gemm-apps.com/how-to-choose-software-development-company",
+      "x-default": "https://www.gemm-apps.com/como-elegir-empresa-de-software",
     },
   },
   openGraph: {
     title: "Cómo elegir una empresa de desarrollo de software | gemm-apps",
     description:
       "Las señales reales para elegir bien un proveedor de software: trato directo, compromiso post-lanzamiento, alcance por escrito. Sin marketing.",
-    url: "https://gemm-apps.com/como-elegir-empresa-de-software",
+    url: "https://www.gemm-apps.com/como-elegir-empresa-de-software",
   },
 };
 
@@ -86,8 +86,8 @@ const breadcrumb = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "gemm-apps", item: "https://gemm-apps.com" },
-    { "@type": "ListItem", position: 2, name: "Cómo elegir empresa de software", item: "https://gemm-apps.com/como-elegir-empresa-de-software" },
+    { "@type": "ListItem", position: 1, name: "gemm-apps", item: "https://www.gemm-apps.com" },
+    { "@type": "ListItem", position: 2, name: "Cómo elegir empresa de software", item: "https://www.gemm-apps.com/como-elegir-empresa-de-software" },
   ],
 };
 export default function Page() {

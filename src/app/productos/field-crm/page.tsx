@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Reemplazá el caos de WhatsApp y Excel con un CRM simple para vendedores en terreno. Sabés dónde está tu equipo, qué venden y qué viene.",
   alternates: {
-    canonical: "https://gemm-apps.com/productos/field-crm",
+    canonical: "https://www.gemm-apps.com/productos/field-crm",
   },
   openGraph: {
     title: "Field CRM — CRM para equipos de ventas en campo | gemm-apps",
     description:
       "Reemplazá el caos de WhatsApp y Excel con un CRM simple para vendedores en terreno. Sabés dónde está tu equipo, qué venden y qué viene.",
-    url: "https://gemm-apps.com/productos/field-crm",
+    url: "https://www.gemm-apps.com/productos/field-crm",
   },
 };
 
@@ -21,9 +21,9 @@ const breadcrumb = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "gemm-apps", item: "https://gemm-apps.com" },
-    { "@type": "ListItem", position: 2, name: "Productos", item: "https://gemm-apps.com/productos" },
-    { "@type": "ListItem", position: 3, name: "Field CRM", item: "https://gemm-apps.com/productos/field-crm" },
+    { "@type": "ListItem", position: 1, name: "gemm-apps", item: "https://www.gemm-apps.com" },
+    { "@type": "ListItem", position: 2, name: "Productos", item: "https://www.gemm-apps.com/productos" },
+    { "@type": "ListItem", position: 3, name: "Field CRM", item: "https://www.gemm-apps.com/productos/field-crm" },
   ],
 };
 
@@ -51,7 +51,7 @@ const schema = {
   ],
   description:
     "CRM móvil para equipos de ventas en terreno. Seguimiento de visitas, clientes y resultados en tiempo real.",
-  provider: { "@type": "Organization", name: "gemm-apps", url: "https://gemm-apps.com" },
+  provider: { "@type": "Organization", name: "gemm-apps", url: "https://www.gemm-apps.com" },
 };
 
 const PROBLEMS = [

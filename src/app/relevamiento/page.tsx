@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Relevamiento de proyecto",
   description: "Contanos de tu proyecto en 5 minutos y te armamos un presupuesto.",
   robots: { index: false, follow: false },
-  alternates: { canonical: "https://gemm-apps.com/relevamiento" },
+  alternates: { canonical: "https://www.gemm-apps.com/relevamiento" },
 };
 
 export default function Page() {

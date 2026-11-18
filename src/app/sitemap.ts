@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const base = "https://gemm-apps.com";
+const base = "https://www.gemm-apps.com";
 
 const clusterPages = [
   "/desarrollo-de-apps-en-argentina",

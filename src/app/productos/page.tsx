@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Mi Turno, Field CRM y QRtify: herramientas simples para negocios que coordinan turnos, equipos de venta en campo o locales gastronómicos.",
   alternates: {
-    canonical: "https://gemm-apps.com/productos",
+    canonical: "https://www.gemm-apps.com/productos",
   },
   openGraph: {
     title: "Productos — apps para pymes de servicios | gemm-apps",
     description:
       "Mi Turno, Field CRM y QRtify: herramientas simples para negocios que coordinan turnos, equipos de venta en campo o locales gastronómicos.",
-    url: "https://gemm-apps.com/productos",
+    url: "https://www.gemm-apps.com/productos",
   },
 };
 
@@ -21,8 +21,8 @@ const schema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "gemm-apps", item: "https://gemm-apps.com" },
-    { "@type": "ListItem", position: 2, name: "Productos", item: "https://gemm-apps.com/productos" },
+    { "@type": "ListItem", position: 1, name: "gemm-apps", item: "https://www.gemm-apps.com" },
+    { "@type": "ListItem", position: 2, name: "Productos", item: "https://www.gemm-apps.com/productos" },
   ],
 };
 

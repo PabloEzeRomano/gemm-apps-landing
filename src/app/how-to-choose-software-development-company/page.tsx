@@ -8,18 +8,18 @@ export const metadata: Metadata = {
   description:
     "The real signals that matter when choosing a software partner: direct contact, post-launch commitment, written scope. No marketing fluff.",
   alternates: {
-    canonical: "https://gemm-apps.com/how-to-choose-software-development-company",
+    canonical: "https://www.gemm-apps.com/how-to-choose-software-development-company",
     languages: {
-      en: "https://gemm-apps.com/how-to-choose-software-development-company",
-      es: "https://gemm-apps.com/como-elegir-empresa-de-software",
-      "x-default": "https://gemm-apps.com/how-to-choose-software-development-company",
+      en: "https://www.gemm-apps.com/how-to-choose-software-development-company",
+      es: "https://www.gemm-apps.com/como-elegir-empresa-de-software",
+      "x-default": "https://www.gemm-apps.com/how-to-choose-software-development-company",
     },
   },
   openGraph: {
     title: "How to Choose a Software Development Company | gemm-apps",
     description:
       "The real signals that matter when choosing a software partner: direct contact, post-launch commitment, written scope. No marketing fluff.",
-    url: "https://gemm-apps.com/how-to-choose-software-development-company",
+    url: "https://www.gemm-apps.com/how-to-choose-software-development-company",
   },
 };
 
@@ -86,8 +86,8 @@ const breadcrumb = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "gemm-apps", item: "https://gemm-apps.com" },
-    { "@type": "ListItem", position: 2, name: "How to Choose a Software Company", item: "https://gemm-apps.com/how-to-choose-software-development-company" },
+    { "@type": "ListItem", position: 1, name: "gemm-apps", item: "https://www.gemm-apps.com" },
+    { "@type": "ListItem", position: 2, name: "How to Choose a Software Company", item: "https://www.gemm-apps.com/how-to-choose-software-development-company" },
   ],
 };
 export default function Page() {

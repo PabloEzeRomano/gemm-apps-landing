@@ -8,18 +8,18 @@ export const metadata: Metadata = {
   description:
     "gemm-apps hace desarrollo a medida cuando el problema no encaja en ningún producto existente. Trato directo con quien construye, sin capas intermedias.",
   alternates: {
-    canonical: "https://gemm-apps.com/desarrollo-a-medida",
+    canonical: "https://www.gemm-apps.com/desarrollo-a-medida",
     languages: {
-      es: "https://gemm-apps.com/desarrollo-a-medida",
-      en: "https://gemm-apps.com/custom-app-development-argentina",
-      "x-default": "https://gemm-apps.com/desarrollo-a-medida",
+      es: "https://www.gemm-apps.com/desarrollo-a-medida",
+      en: "https://www.gemm-apps.com/custom-app-development-argentina",
+      "x-default": "https://www.gemm-apps.com/desarrollo-a-medida",
     },
   },
   openGraph: {
     title: "Desarrollo de aplicaciones a medida en Argentina | gemm-apps",
     description:
       "gemm-apps hace desarrollo a medida cuando el problema no encaja en ningún producto existente. Trato directo con quien construye, sin capas intermedias.",
-    url: "https://gemm-apps.com/desarrollo-a-medida",
+    url: "https://www.gemm-apps.com/desarrollo-a-medida",
   },
 };
 
@@ -102,8 +102,8 @@ const breadcrumb = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "gemm-apps", item: "https://gemm-apps.com" },
-    { "@type": "ListItem", position: 2, name: "Desarrollo a medida", item: "https://gemm-apps.com/desarrollo-a-medida" },
+    { "@type": "ListItem", position: 1, name: "gemm-apps", item: "https://www.gemm-apps.com" },
+    { "@type": "ListItem", position: 2, name: "Desarrollo a medida", item: "https://www.gemm-apps.com/desarrollo-a-medida" },
   ],
 };
 export default function Page() {

@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Tus clientes se agendan solos desde tu link. Sin WhatsApp, sin comisiones, sin apps que bajar. $30.000/mes precio fijo.",
   alternates: {
-    canonical: "https://gemm-apps.com/productos/mi-turno",
+    canonical: "https://www.gemm-apps.com/productos/mi-turno",
   },
   openGraph: {
     title: "Mi Turno — sistema de turnos online para negocios | gemm-apps",
     description:
       "Tus clientes se agendan solos desde tu link. Sin WhatsApp, sin comisiones, sin apps que bajar. $30.000/mes precio fijo.",
-    url: "https://gemm-apps.com/productos/mi-turno",
+    url: "https://www.gemm-apps.com/productos/mi-turno",
   },
 };
 
@@ -21,9 +21,9 @@ const breadcrumb = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "gemm-apps", item: "https://gemm-apps.com" },
-    { "@type": "ListItem", position: 2, name: "Productos", item: "https://gemm-apps.com/productos" },
-    { "@type": "ListItem", position: 3, name: "Mi Turno", item: "https://gemm-apps.com/productos/mi-turno" },
+    { "@type": "ListItem", position: 1, name: "gemm-apps", item: "https://www.gemm-apps.com" },
+    { "@type": "ListItem", position: 2, name: "Productos", item: "https://www.gemm-apps.com/productos" },
+    { "@type": "ListItem", position: 3, name: "Mi Turno", item: "https://www.gemm-apps.com/productos/mi-turno" },
   ],
 };
 
@@ -41,7 +41,7 @@ const schema = {
   },
   description:
     "Sistema de turnos online para negocios de servicios. Tus clientes reservan desde tu link, vos gestionás todo desde el panel.",
-  provider: { "@type": "Organization", name: "gemm-apps", url: "https://gemm-apps.com" },
+  provider: { "@type": "Organization", name: "gemm-apps", url: "https://www.gemm-apps.com" },
 };
 
 const STEPS = [

@@ -8,18 +8,18 @@ export const metadata: Metadata = {
   description:
     "gemm-apps builds custom apps when the problem does not fit any existing product. Direct contact with who builds it — no account manager layers.",
   alternates: {
-    canonical: "https://gemm-apps.com/custom-app-development-argentina",
+    canonical: "https://www.gemm-apps.com/custom-app-development-argentina",
     languages: {
-      en: "https://gemm-apps.com/custom-app-development-argentina",
-      es: "https://gemm-apps.com/desarrollo-a-medida",
-      "x-default": "https://gemm-apps.com/custom-app-development-argentina",
+      en: "https://www.gemm-apps.com/custom-app-development-argentina",
+      es: "https://www.gemm-apps.com/desarrollo-a-medida",
+      "x-default": "https://www.gemm-apps.com/custom-app-development-argentina",
     },
   },
   openGraph: {
     title: "Custom App Development in Argentina | gemm-apps",
     description:
       "gemm-apps builds custom apps when the problem does not fit any existing product. Direct contact with who builds it — no account manager layers.",
-    url: "https://gemm-apps.com/custom-app-development-argentina",
+    url: "https://www.gemm-apps.com/custom-app-development-argentina",
   },
 };
 
@@ -98,8 +98,8 @@ const breadcrumb = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "gemm-apps", item: "https://gemm-apps.com" },
-    { "@type": "ListItem", position: 2, name: "Custom App Development Argentina", item: "https://gemm-apps.com/custom-app-development-argentina" },
+    { "@type": "ListItem", position: 1, name: "gemm-apps", item: "https://www.gemm-apps.com" },
+    { "@type": "ListItem", position: 2, name: "Custom App Development Argentina", item: "https://www.gemm-apps.com/custom-app-development-argentina" },
   ],
 };
 export default function Page() {
