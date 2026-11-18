@@ -3,7 +3,7 @@ import { Header } from "@/components/Header/Header";
 import s from "@/components/ClusterPage/ClusterPage.module.css";
 
 export const metadata: Metadata = {
-  title: "Productos — apps para pymes de servicios | gemm-apps",
+  title: "Productos — apps para pymes de servicios",
   description:
     "Mi Turno, Field CRM y QRtify: herramientas simples para negocios que coordinan turnos, equipos de venta en campo o locales gastronómicos.",
   alternates: {

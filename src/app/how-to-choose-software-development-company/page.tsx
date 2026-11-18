@@ -4,7 +4,7 @@ import { ProductLinks } from "@/components/ProductLinks/ProductLinks";
 import styles from "@/components/ClusterPage/ClusterPage.module.css";
 
 export const metadata: Metadata = {
-  title: "How to Choose a Software Development Company | gemm-apps",
+  title: "How to Choose a Software Development Company",
   description:
     "The real signals that matter when choosing a software partner: direct contact, post-launch commitment, written scope. No marketing fluff.",
   alternates: {

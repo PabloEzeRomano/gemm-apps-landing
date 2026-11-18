@@ -3,7 +3,7 @@ import { Header } from "@/components/Header/Header";
 import s from "@/components/ProductPage/ProductPage.module.css";
 
 export const metadata: Metadata = {
-  title: "Field CRM — CRM para equipos de ventas en campo | gemm-apps",
+  title: "Field CRM — CRM para equipos de ventas en campo",
   description:
     "Reemplazá el caos de WhatsApp y Excel con un CRM simple para vendedores en terreno. Sabés dónde está tu equipo, qué venden y qué viene.",
   alternates: {

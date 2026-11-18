@@ -4,7 +4,7 @@ import { ProductLinks } from "@/components/ProductLinks/ProductLinks";
 import styles from "@/components/ClusterPage/ClusterPage.module.css";
 
 export const metadata: Metadata = {
-  title: "¿Cuánto cuesta desarrollar una app en Argentina? | gemm-apps",
+  title: "¿Cuánto cuesta desarrollar una app en Argentina?",
   description:
     "Rangos de precios reales para desarrollo de apps en Argentina: desde MVPs hasta plataformas complejas. Incluye alternativas semi-estandarizadas desde USD 1.000.",
   alternates: {

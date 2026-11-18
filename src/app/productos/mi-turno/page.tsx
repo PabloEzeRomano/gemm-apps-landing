@@ -3,7 +3,7 @@ import { Header } from "@/components/Header/Header";
 import s from "@/components/ProductPage/ProductPage.module.css";
 
 export const metadata: Metadata = {
-  title: "Mi Turno — sistema de turnos online para negocios | gemm-apps",
+  title: "Mi Turno — sistema de turnos online para negocios",
   description:
     "Tus clientes se agendan solos desde tu link. Sin WhatsApp, sin comisiones, sin apps que bajar. $30.000/mes precio fijo.",
   alternates: {

@@ -4,7 +4,7 @@ import { ProductLinks } from "@/components/ProductLinks/ProductLinks";
 import styles from "@/components/ClusterPage/ClusterPage.module.css";
 
 export const metadata: Metadata = {
-  title: "Cómo elegir una empresa de desarrollo de software | gemm-apps",
+  title: "Cómo elegir una empresa de desarrollo de software",
   description:
     "Las señales reales para elegir bien un proveedor de software: trato directo, compromiso post-lanzamiento, alcance por escrito. Sin marketing.",
   alternates: {

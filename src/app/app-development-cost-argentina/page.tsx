@@ -4,7 +4,7 @@ import { ProductLinks } from "@/components/ProductLinks/ProductLinks";
 import styles from "@/components/ClusterPage/ClusterPage.module.css";
 
 export const metadata: Metadata = {
-  title: "App Development Cost in Argentina | gemm-apps",
+  title: "App Development Cost in Argentina",
   description:
     "Real price ranges for hiring app developers in Argentina: from MVPs to complex platforms. Includes semi-standardized alternatives from USD 1,000.",
   alternates: {

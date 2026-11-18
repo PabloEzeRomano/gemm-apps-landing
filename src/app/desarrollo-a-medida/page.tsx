@@ -4,7 +4,7 @@ import { ProductLinks } from "@/components/ProductLinks/ProductLinks";
 import styles from "@/components/ClusterPage/ClusterPage.module.css";
 
 export const metadata: Metadata = {
-  title: "Desarrollo de aplicaciones a medida en Argentina | gemm-apps",
+  title: "Desarrollo de aplicaciones a medida en Argentina",
   description:
     "gemm-apps hace desarrollo a medida cuando el problema no encaja en ningún producto existente. Trato directo con quien construye, sin capas intermedias.",
   alternates: {

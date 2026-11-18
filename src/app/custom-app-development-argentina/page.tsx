@@ -4,7 +4,7 @@ import { ProductLinks } from "@/components/ProductLinks/ProductLinks";
 import styles from "@/components/ClusterPage/ClusterPage.module.css";
 
 export const metadata: Metadata = {
-  title: "Custom App Development in Argentina | gemm-apps",
+  title: "Custom App Development in Argentina",
   description:
     "gemm-apps builds custom apps when the problem does not fit any existing product. Direct contact with who builds it — no account manager layers.",
   alternates: {

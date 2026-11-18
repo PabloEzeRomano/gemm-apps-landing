@@ -4,7 +4,7 @@ import { ProductLinks } from "@/components/ProductLinks/ProductLinks";
 import styles from "@/components/ClusterPage/ClusterPage.module.css";
 
 export const metadata: Metadata = {
-  title: "App Development Companies in Argentina | gemm-apps",
+  title: "App Development Companies in Argentina",
   description:
     "A guide to Argentina's software studio market: types of providers, how to choose, and when a boutique studio like gemm-apps fits best.",
   alternates: {

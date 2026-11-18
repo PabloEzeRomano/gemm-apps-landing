@@ -3,7 +3,7 @@ import { Header } from "@/components/Header/Header";
 import s from "@/components/ProductPage/ProductPage.module.css";
 
 export const metadata: Metadata = {
-  title: "QRtify — menú digital y comanda para restaurantes | gemm-apps",
+  title: "QRtify — menú digital y comanda para restaurantes",
   description:
     "Menú QR sin app, pedidos que llegan directo a cocina, precio fijo mensual. Para restaurantes, bares y cafeterías. 14 días gratis.",
   alternates: {
