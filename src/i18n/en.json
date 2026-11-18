@@ -245,5 +245,81 @@
     "a4": "Yes. Our own products are updated continuously. Custom projects also receive post-launch follow-up rather than being treated as closed deliverables once handed over.",
     "q5": "Do you work with clients outside Buenos Aires?",
     "a5": "gemm-apps operates 100% remotely and serves clients across Argentina. Location is not a factor — what matters is whether your business problem fits what we build."
+  },
+  "intake": {
+    "eyebrow": "Project brief",
+    "title": "Tell us about your project.",
+    "lead": "It's 12 questions and takes less than 5 minutes. We use this to put together a quote that makes sense for you.",
+    "optional": "(optional)",
+    "selectPlaceholder": "Pick an option",
+    "submit": "Send",
+    "sending": "Sending…",
+    "groups": {
+      "you": "About you",
+      "project": "About the project",
+      "contact": "Contact"
+    },
+    "fields": {
+      "fullName": "Full name",
+      "role": "Your role",
+      "company": "Company or project",
+      "website": "Project website or socials",
+      "source": "How did you find us?",
+      "sourceOther": "Tell us how",
+      "description": "Tell us briefly what the project is about",
+      "budget": "Estimated investment range",
+      "timeline": "When do you want to launch?",
+      "validated": "Have you validated the idea?",
+      "email": "Email",
+      "phone": "WhatsApp or phone",
+      "callTime": "Best time for a short 15 min call"
+    },
+    "placeholders": {
+      "role": "Founder, manager, owner...",
+      "website": "yoursite.com or @youraccount",
+      "description": "What problem it solves, who it's for and what you picture it doing.",
+      "callTime": "For example: Tuesday or Thursday afternoon"
+    },
+    "options": {
+      "source": {
+        "googleMaps": "Google Maps",
+        "referral": "Referral",
+        "linkedin": "LinkedIn",
+        "social": "Social media",
+        "other": "Other"
+      },
+      "budget": {
+        "under5k": "Under USD 5,000",
+        "from5to15k": "USD 5,000 to 15,000",
+        "from15to30k": "USD 15,000 to 30,000",
+        "over30k": "Over USD 30,000",
+        "onCall": "I'd rather define it on the call"
+      },
+      "timeline": {
+        "under2m": "Under 2 months",
+        "from2to4m": "2 to 4 months",
+        "from4to6m": "4 to 6 months",
+        "over6m": "Over 6 months",
+        "noDate": "No set date"
+      },
+      "validated": {
+        "users": "Yes, with users",
+        "partners": "Yes, with partners or investors",
+        "notYet": "Not yet"
+      }
+    },
+    "errors": {
+      "required": "We need this one.",
+      "invalidEmail": "Check the email, it looks like there's a typo.",
+      "invalidOption": "Pick one of the options.",
+      "tooLong": "That's too long, try shortening it.",
+      "summary": "Some info is missing. Check the highlighted fields.",
+      "server": "Something went wrong on our side. Try again or write to info@gemm-apps.com.",
+      "rateLimit": "We got several submissions in a row. Try again in an hour."
+    },
+    "success": {
+      "title": "Got it!",
+      "body": "Thanks, I'll review your info and get back to you during business hours (Monday to Friday)."
+    }
   }
 }

@@ -245,5 +245,81 @@
     "a4": "Sí. Los productos propios se actualizan de forma continua. Los proyectos a medida también tienen seguimiento post-lanzamiento en lugar de tratarse como trabajos cerrados una vez entregados.",
     "q5": "¿Trabajan con clientes fuera de Buenos Aires?",
     "a5": "gemm-apps opera 100% de forma remota y atiende clientes en todo el país. La ubicación no es un factor: lo que importa es que el problema de tu negocio encaje con lo que construimos."
+  },
+  "intake": {
+    "eyebrow": "Relevamiento",
+    "title": "Contanos de tu proyecto.",
+    "lead": "Son 12 preguntas y te lleva menos de 5 minutos. Con esto armamos un presupuesto que tenga sentido para vos.",
+    "optional": "(opcional)",
+    "selectPlaceholder": "Elegí una opción",
+    "submit": "Enviar",
+    "sending": "Enviando…",
+    "groups": {
+      "you": "Sobre vos",
+      "project": "Sobre el proyecto",
+      "contact": "Contacto"
+    },
+    "fields": {
+      "fullName": "Nombre completo",
+      "role": "Tu rol",
+      "company": "Empresa o proyecto",
+      "website": "Web o redes del proyecto",
+      "source": "¿Cómo nos conociste?",
+      "sourceOther": "Contanos cómo",
+      "description": "Contanos brevemente de qué trata el proyecto",
+      "budget": "Rango de inversión estimado",
+      "timeline": "¿En qué plazo querés lanzar?",
+      "validated": "¿Ya validaron la idea?",
+      "email": "Email",
+      "phone": "WhatsApp o teléfono",
+      "callTime": "Mejor horario para una llamada corta de 15 min"
+    },
+    "placeholders": {
+      "role": "Fundador, gerente, dueño...",
+      "website": "tusitio.com o @tucuenta",
+      "description": "Qué problema resuelve, para quién es y qué te imaginás que hace.",
+      "callTime": "Por ejemplo: martes o jueves a la tarde"
+    },
+    "options": {
+      "source": {
+        "googleMaps": "Google Maps",
+        "referral": "Recomendación",
+        "linkedin": "LinkedIn",
+        "social": "Redes sociales",
+        "other": "Otro"
+      },
+      "budget": {
+        "under5k": "Menos de USD 5.000",
+        "from5to15k": "USD 5.000 a 15.000",
+        "from15to30k": "USD 15.000 a 30.000",
+        "over30k": "Más de USD 30.000",
+        "onCall": "Prefiero definirlo en la llamada"
+      },
+      "timeline": {
+        "under2m": "Menos de 2 meses",
+        "from2to4m": "2 a 4 meses",
+        "from4to6m": "4 a 6 meses",
+        "over6m": "Más de 6 meses",
+        "noDate": "Sin fecha definida"
+      },
+      "validated": {
+        "users": "Sí, con usuarios",
+        "partners": "Sí, con socios o inversores",
+        "notYet": "Todavía no"
+      }
+    },
+    "errors": {
+      "required": "Este dato nos hace falta.",
+      "invalidEmail": "Revisá el email, parece que tiene un error.",
+      "invalidOption": "Elegí una de las opciones.",
+      "tooLong": "Quedó muy largo, probá acortarlo.",
+      "summary": "Faltan algunos datos. Revisá los campos marcados.",
+      "server": "Algo salió mal de nuestro lado. Probá de nuevo o escribinos a info@gemm-apps.com.",
+      "rateLimit": "Recibimos varios envíos seguidos. Probá de nuevo en una hora."
+    },
+    "success": {
+      "title": "¡Listo, recibido!",
+      "body": "Gracias, reviso tu información y te respondo en horario laboral (lunes a viernes)."
+    }
   }
 }

@@ -1,0 +1,210 @@
+.page {
+  max-width: 42rem;
+  margin-inline: auto;
+  padding: calc(var(--header-h) + clamp(2rem, 6vw, 4rem)) var(--section-pad-x)
+    clamp(3rem, 8vw, 6rem);
+}
+
+.eyebrow {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-magenta);
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: clamp(2rem, 6vw, 3.25rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  color: var(--color-text);
+  margin-bottom: 1rem;
+}
+
+.lead {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--color-text-secondary);
+  margin-bottom: clamp(2rem, 5vw, 3rem);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.honeypot {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.group {
+  border: none;
+  border-top: 1px solid var(--color-border);
+  padding-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  min-width: 0;
+}
+
+.legend {
+  float: left;
+  width: 100%;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-text-tertiary);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--color-text);
+}
+
+.optional {
+  font-weight: 400;
+  color: var(--color-text-secondary);
+}
+
+/* 16px minimum keeps iOS Safari from zooming on focus */
+.input {
+  font-family: var(--font-space, "Space Grotesk"), sans-serif;
+  font-size: 1rem;
+  line-height: 1.4;
+  background: var(--color-surface);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  border-radius: 0;
+  padding: 0.875rem 1rem;
+  width: 100%;
+  min-height: 3rem;
+  appearance: none;
+  transition:
+    border-color var(--dur-base) var(--ease-out),
+    background var(--dur-base) var(--ease-out);
+}
+
+.input::placeholder {
+  color: var(--color-text-secondary);
+  opacity: 0.7;
+}
+
+.input:focus-visible {
+  outline: 2px solid var(--color-magenta);
+  outline-offset: 2px;
+  border-color: var(--color-magenta);
+  background: var(--color-bg);
+}
+
+.input[aria-invalid="true"] {
+  border-color: var(--color-red);
+}
+
+.input:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.select {
+  padding-right: 2.75rem;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8' fill='none' stroke='%23888' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M1 1l5 5 5-5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  cursor: pointer;
+}
+
+.select option {
+  background: var(--color-bg-elevated);
+  color: var(--color-text);
+}
+
+.textarea {
+  resize: vertical;
+  min-height: 8rem;
+  line-height: 1.6;
+}
+
+.fieldError,
+.formMessage {
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--color-red);
+}
+
+.formMessage:empty {
+  display: none;
+}
+
+.submit {
+  font-family: var(--font-space, "Space Grotesk"), sans-serif;
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 1.1rem 2rem;
+  min-height: 3.25rem;
+  background: var(--color-orange);
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  transition: opacity var(--dur-base) var(--ease-out);
+}
+
+.submit:hover:not(:disabled) {
+  opacity: 0.88;
+}
+
+.submit:focus-visible {
+  outline: 2px solid var(--color-text);
+  outline-offset: 3px;
+}
+
+.submit:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.success {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: clamp(1.75rem, 5vw, 2.5rem);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--color-text-secondary);
+  outline: none;
+}
+
+.successIcon {
+  font-size: 1.5rem;
+  color: var(--color-magenta);
+}
+
+.successTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+}
